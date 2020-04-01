@@ -1,0 +1,224 @@
+﻿<randomizer>
+  <!--values in base 16-->
+  <area name="Kings_Pass">
+    <r>8f</r>
+    <g>9f</g>
+    <b>af</b>
+  </area>
+  <area name="Dirtmouth">
+    <r>75</r>
+    <g>75</g>
+    <b>99</b>
+  </area>
+  <area name="Forgotten_Crossroads">
+    <r>5a</r>
+    <g>7a</g>
+    <b>a8</b>
+  </area>
+  <area name="Ancestral_Mound">
+    <r>a6</r>
+    <g>86</g>
+    <b>aa</b>
+  </area>
+  <area name="Greenpath">
+    <r>72</r>
+    <g>ab</g>
+    <b>52</b>
+  </area>
+  <area name="Lake_of_Unn">
+    <r>92</r>
+    <g>ab</g>
+    <b>52</b>
+  </area>
+  <area name="Stone_Sanctuary">
+    <r>65</r>
+    <g>7b</g>
+    <b>2f</b>
+  </area>
+  <area name="Fog_Canyon">
+    <r>da</r>
+    <g>80</g>
+    <b>e6</b>
+  </area>
+  <area name="Teachers_Archives">
+    <r>a5</r>
+    <g>ab</g>
+    <b>6f</b>
+  </area>
+  <area name="Overgrown_Mound">
+    <r>65</r>
+    <g>ab</g>
+    <b>2f</b>
+  </area>
+  <area name="Queens_Station">
+    <r>97</r>
+    <g>c9</g>
+    <b>c9</b>
+  </area>
+  <area name="Fungal_Wastes">
+    <r>df</r>
+    <g>bf</g>
+    <b>30</b>
+  </area>
+  <area name="Mantis_Village">
+    <r>cf</r>
+    <g>9f</g>
+    <b>30</b>
+  </area>
+  <area name="Fungal_Core">
+    <r>9f</r>
+    <g>9f</g>
+    <b>00</b>
+  </area>
+  <area name="Deepnest">
+    <r>99</r>
+    <g>89</g>
+    <b>c9</b>
+  </area>
+  <area name="Failed_Tramway">
+    <r>8f</r>
+    <g>5f</g>
+    <b>6f</b>
+  </area>
+  <area name="Weavers_Den">
+    <r>c0</r>
+    <g>a0</g>
+    <b>b0</b>
+  </area>
+  <area name="Distant_Village">
+    <r>7f</r>
+    <g>90</g>
+    <b>bd</b>
+  </area>
+  <area name="Beasts_Den">
+    <r>dd</r>
+    <g>a0</g>
+    <b>dd</b>
+  </area>
+  <area name="Ancient_Basin">
+    <r>b1</r>
+    <g>a4</g>
+    <b>7a</b>
+  </area>
+  <area name="Palace_Grounds">
+    <r>d2</r>
+    <g>b4</g>
+    <b>8c</b>
+  </area>
+  <area name="Abyss">
+    <r>8f</r>
+    <g>8a</g>
+    <b>55</b>
+  </area>
+  <area name="Kingdoms_Edge">
+    <r>c3</r>
+    <g>9f</g>
+    <b>81</b>
+  </area>
+  <area name="Hive">
+    <r>da</r>
+    <g>a5</g>
+    <b>20</b>
+  </area>
+  <area name="Cast_Off_Shell">
+    <r>cd</r>
+    <g>b7</g>
+    <b>b5</b>
+  </area>
+  <area name="Colosseum">
+    <r>ff</r>
+    <g>f6</g>
+    <b>8f</b>
+  </area>
+  <area name="City_of_Tears">
+    <r>70</r>
+    <g>7f</g>
+    <b>cf</b>
+  </area>
+  <area name="Soul_Sanctum">
+    <r>70</r>
+    <g>7f</g>
+    <b>ff</b>
+  </area>
+  <area name="Pleasure_House">
+    <r>64</r>
+    <g>95</g>
+    <b>ed</b>
+  </area>
+  <area name="Kings_Station">
+    <r>77</r>
+    <g>7f</g>
+    <b>af</b>
+  </area>
+  <area name="Tower_of_Love">
+    <r>da</r>
+    <g>70</g>
+    <b>df</b>
+  </area>
+  <area name="Royal_Waterways">
+    <r>00</r>
+    <g>a0</g>
+    <b>a0</b>
+  </area>
+  <area name="Junk_Pit">
+    <r>00</r>
+    <g>80</g>
+    <b>80</b>
+  </area>
+  <area name="Ismas_Grove">
+    <r>3c</r>
+    <g>cb</g>
+    <b>91</b>
+  </area>
+  <area name="Resting_Grounds">
+    <r>df</r>
+    <g>a0</g>
+    <b>50</b>
+  </area>
+  <area name="Spirits_Glade">
+    <r>ff</r>
+    <g>a0</g>
+    <b>30</b>
+  </area>
+  <area name="Blue_Lake">
+    <r>87</r>
+    <g>ce</g>
+    <b>fa</b>
+  </area>
+  <area name="Crystal_Peak">
+    <r>ff</r>
+    <g>b0</g>
+    <b>bf</b>
+  </area>
+  <area name="Hallownests_Crown">
+    <r>ff</r>
+    <g>e0</g>
+    <b>eb</b>
+  </area>
+  <area name="Crystallized_Mound">
+    <r>cf</r>
+    <g>90</g>
+    <b>9f</b>
+  </area>
+  <area name="Queens_Gardens">
+    <r>85</r>
+    <g>9b</g>
+    <b>5f</b>
+  </area>
+  <area name="Howling_Cliffs">
+    <r>8f</r>
+    <g>a0</g>
+    <b>cd</b>
+  </area>
+  <area name="Stag_Nest">
+    <r>5f</r>
+    <g>8f</g>
+    <b>8f</b>
+  </area>
+  <area name="Black_Egg_Temple">
+    <r>7f</r>
+    <g>8f</g>
+    <b>9f</b>
+  </area>
+</randomizer>
+

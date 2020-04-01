@@ -1,0 +1,1088 @@
+﻿<randomizer>
+  <room name="Room_temple">
+    <altName>Room_temple</altName>
+  </room>
+  <room name="Tutorial_01">
+    <altName>Tutorial_01</altName>
+  </room>
+  <room name="Town">
+    <altName>Town</altName>
+  </room>
+  <room name="Room_shop">
+    <altName>Room_shop</altName>
+  </room>
+  <room name="Room_Town_Stag_Station">
+    <altName>Room_Town_Stag_Station</altName>
+  </room>
+  <room name="Room_mapper">
+    <altName>Room_mapper</altName>
+  </room>
+  <room name="Room_Bretta">
+    <altName>Room_Bretta</altName>
+  </room>
+  <room name="Room_Ouiji">
+    <altName>Room_Ouiji</altName>
+  </room>
+  <room name="Grimm_Divine">
+    <altName>Grimm_Divine</altName>
+  </room>
+  <room name="Grimm_Main_Tent">
+    <altName>Grimm_Main_Tent</altName>
+  </room>
+  <room name="Crossroads_01">
+    <altName>Crossroads_01</altName>
+  </room>
+  <room name="Crossroads_02">
+    <altName>Crossroads_02</altName>
+  </room>
+  <room name="Crossroads_03">
+    <altName>Crossroads_03</altName>
+  </room>
+  <room name="Crossroads_04">
+    <altName>Crossroads_04</altName>
+  </room>
+  <room name="Crossroads_05">
+    <altName>Crossroads_05</altName>
+  </room>
+  <room name="Crossroads_06">
+    <altName>Crossroads_06</altName>
+  </room>
+  <room name="Crossroads_07">
+    <altName>Crossroads_07</altName>
+  </room>
+  <room name="Crossroads_08">
+    <altName>Crossroads_08</altName>
+  </room>
+  <room name="Crossroads_09">
+    <altName>Crossroads_09</altName>
+  </room>
+  <room name="Crossroads_10">
+    <altName>Crossroads_10</altName>
+  </room>
+  <room name="Crossroads_11_alt">
+    <altName>Crossroads_11_alt</altName>
+  </room>
+  <room name="Crossroads_12">
+    <altName>Crossroads_12</altName>
+  </room>
+  <room name="Crossroads_13">
+    <altName>Crossroads_13</altName>
+  </room>
+  <room name="Crossroads_14">
+    <altName>Crossroads_14</altName>
+  </room>
+  <room name="Crossroads_15">
+    <altName>Crossroads_15</altName>
+  </room>
+  <room name="Crossroads_16">
+    <altName>Crossroads_16</altName>
+  </room>
+  <room name="Crossroads_18">
+    <altName>Crossroads_18</altName>
+  </room>
+  <room name="Crossroads_19">
+    <altName>Crossroads_19</altName>
+  </room>
+  <room name="Crossroads_21">
+    <altName>Crossroads_21</altName>
+  </room>
+  <room name="Crossroads_22">
+    <altName>Crossroads_22</altName>
+  </room>
+  <room name="Crossroads_25">
+    <altName>Crossroads_25</altName>
+  </room>
+  <room name="Crossroads_27">
+    <altName>Crossroads_27</altName>
+  </room>
+  <room name="Crossroads_30">
+    <altName>Crossroads_30</altName>
+  </room>
+  <room name="Crossroads_31">
+    <altName>Crossroads_31</altName>
+  </room>
+  <room name="Crossroads_33">
+    <altName>Crossroads_33</altName>
+  </room>
+  <room name="Crossroads_35">
+    <altName>Crossroads_35</altName>
+  </room>
+  <room name="Crossroads_36">
+    <altName>Crossroads_36</altName>
+  </room>
+  <room name="Crossroads_37">
+    <altName>Crossroads_37</altName>
+  </room>
+  <room name="Crossroads_38">
+    <altName>Crossroads_38</altName>
+  </room>
+  <room name="Crossroads_39">
+    <altName>Crossroads_39</altName>
+  </room>
+  <room name="Crossroads_40">
+    <altName>Crossroads_40</altName>
+  </room>
+  <room name="Crossroads_42">
+    <altName>Crossroads_42</altName>
+  </room>
+  <room name="Crossroads_43">
+    <altName>Crossroads_43</altName>
+  </room>
+  <room name="Crossroads_45">
+    <altName>Crossroads_45</altName>
+  </room>
+  <room name="Crossroads_46">
+    <altName>Crossroads_46</altName>
+  </room>
+  <room name="Crossroads_46b">
+    <altName>Crossroads_46b</altName>
+  </room>
+  <room name="Crossroads_ShamanTemple">
+    <altName>Crossroads_ShamanTemple</altName>
+  </room>
+  <room name="Crossroads_47">
+    <altName>Crossroads_47</altName>
+  </room>
+  <room name="Crossroads_48">
+    <altName>Crossroads_48</altName>
+  </room>
+  <room name="Crossroads_49">
+    <altName>Crossroads_49</altName>
+  </room>
+  <room name="Crossroads_49b">
+    <altName>Crossroads_49b</altName>
+  </room>
+  <room name="Crossroads_50">
+    <altName>Crossroads_50</altName>
+  </room>
+  <room name="Crossroads_52">
+    <altName>Crossroads_52</altName>
+  </room>
+  <room name="Room_ruinhouse">
+    <altName>Room_ruinhouse</altName>
+  </room>
+  <room name="Room_Charm_Shop">
+    <altName>Room_Charm_Shop</altName>
+  </room>
+  <room name="Room_Mender_House">
+    <altName>Room_Mender_House</altName>
+  </room>
+  <room name="Fungus1_01">
+    <altName>Fungus1_01</altName>
+  </room>
+  <room name="Fungus1_01b">
+    <altName>Fungus1_01b</altName>
+  </room>
+  <room name="Fungus1_02">
+    <altName>Fungus1_02</altName>
+  </room>
+  <room name="Fungus1_03">
+    <altName>Fungus1_03</altName>
+  </room>
+  <room name="Fungus1_04">
+    <altName>Fungus1_04</altName>
+  </room>
+  <room name="Fungus1_05">
+    <altName>Fungus1_05</altName>
+  </room>
+  <room name="Fungus1_06">
+    <altName>Fungus1_06</altName>
+  </room>
+  <room name="Fungus1_07">
+    <altName>Fungus1_07</altName>
+  </room>
+  <room name="Fungus1_08">
+    <altName>Fungus1_08</altName>
+  </room>
+  <room name="Fungus1_09">
+    <altName>Fungus1_09</altName>
+  </room>
+  <room name="Fungus1_10">
+    <altName>Fungus1_10</altName>
+  </room>
+  <room name="Fungus1_11">
+    <altName>Fungus1_11</altName>
+  </room>
+  <room name="Fungus1_12">
+    <altName>Fungus1_12</altName>
+  </room>
+  <room name="Fungus1_13">
+    <altName>Fungus1_13</altName>
+  </room>
+  <room name="Fungus1_14">
+    <altName>Fungus1_14</altName>
+  </room>
+  <room name="Fungus1_15">
+    <altName>Fungus1_15</altName>
+  </room>
+  <room name="Fungus1_16_alt">
+    <altName>Fungus1_16_alt</altName>
+  </room>
+  <room name="Fungus1_17">
+    <altName>Fungus1_17</altName>
+  </room>
+  <room name="Fungus1_19">
+    <altName>Fungus1_19</altName>
+  </room>
+  <room name="Fungus1_20_v02">
+    <altName>Fungus1_20_v02</altName>
+  </room>
+  <room name="Fungus1_21">
+    <altName>Fungus1_21</altName>
+  </room>
+  <room name="Fungus1_22">
+    <altName>Fungus1_22</altName>
+  </room>
+  <room name="Fungus1_23">
+    <altName>Fungus1_23</altName>
+  </room>
+  <room name="Fungus1_24">
+    <altName>Fungus1_24</altName>
+  </room>
+  <room name="Fungus1_25">
+    <altName>Fungus1_25</altName>
+  </room>
+  <room name="Fungus1_26">
+    <altName>Fungus1_26</altName>
+  </room>
+  <room name="Fungus1_28">
+    <altName>Fungus1_28</altName>
+  </room>
+  <room name="Fungus1_29">
+    <altName>Fungus1_29</altName>
+  </room>
+  <room name="Fungus1_30">
+    <altName>Fungus1_30</altName>
+  </room>
+  <room name="Fungus1_31">
+    <altName>Fungus1_31</altName>
+  </room>
+  <room name="Fungus1_32">
+    <altName>Fungus1_32</altName>
+  </room>
+  <room name="Fungus1_34">
+    <altName>Fungus1_34</altName>
+  </room>
+  <room name="Fungus1_35">
+    <altName>Fungus1_35</altName>
+  </room>
+  <room name="Fungus1_36">
+    <altName>Fungus1_36</altName>
+  </room>
+  <room name="Fungus1_37">
+    <altName>Fungus1_37</altName>
+  </room>
+  <room name="Fungus1_Slug">
+    <altName>Fungus1_Slug</altName>
+  </room>
+  <room name="Room_Slug_Shrine">
+    <altName>Room_Slug_Shrine</altName>
+  </room>
+  <room name="Room_nailmaster_02">
+    <altName>Room_nailmaster_02</altName>
+  </room>
+  <room name="Fungus3_01">
+    <altName>Fungus3_01</altName>
+  </room>
+  <room name="Fungus3_02">
+    <altName>Fungus3_02</altName>
+  </room>
+  <room name="Fungus3_03">
+    <altName>Fungus3_03</altName>
+  </room>
+  <room name="Fungus3_24">
+    <altName>Fungus3_24</altName>
+  </room>
+  <room name="Fungus3_25">
+    <altName>Fungus3_25</altName>
+  </room>
+  <room name="Fungus3_25b">
+    <altName>Fungus3_25b</altName>
+  </room>
+  <room name="Fungus3_26">
+    <altName>Fungus3_26</altName>
+  </room>
+  <room name="Fungus3_27">
+    <altName>Fungus3_27</altName>
+  </room>
+  <room name="Fungus3_28">
+    <altName>Fungus3_28</altName>
+  </room>
+  <room name="Fungus3_30">
+    <altName>Fungus3_30</altName>
+  </room>
+  <room name="Fungus3_35">
+    <altName>Fungus3_35</altName>
+  </room>
+  <room name="Fungus3_44">
+    <altName>Fungus3_44</altName>
+  </room>
+  <room name="Fungus3_47">
+    <altName>Fungus3_47</altName>
+  </room>
+  <room name="Room_Fungus_Shaman">
+    <altName>Room_Fungus_Shaman</altName>
+  </room>
+  <room name="Fungus3_archive">
+    <altName>Fungus3_archive</altName>
+  </room>
+  <room name="Fungus3_archive_02">
+    <altName>Fungus3_archive_02</altName>
+  </room>
+  <room name="Fungus2_01">
+    <altName>Fungus2_01</altName>
+  </room>
+  <room name="Fungus2_02">
+    <altName>Fungus2_02</altName>
+  </room>
+  <room name="Fungus2_34">
+    <altName>Fungus2_34</altName>
+  </room>
+  <room name="Fungus2_03">
+    <altName>Fungus2_03</altName>
+  </room>
+  <room name="Fungus2_04">
+    <altName>Fungus2_04</altName>
+  </room>
+  <room name="Fungus2_05">
+    <altName>Fungus2_05</altName>
+  </room>
+  <room name="Fungus2_06">
+    <altName>Fungus2_06</altName>
+  </room>
+  <room name="Fungus2_07">
+    <altName>Fungus2_07</altName>
+  </room>
+  <room name="Fungus2_08">
+    <altName>Fungus2_08</altName>
+  </room>
+  <room name="Fungus2_09">
+    <altName>Fungus2_09</altName>
+  </room>
+  <room name="Fungus2_10">
+    <altName>Fungus2_10</altName>
+  </room>
+  <room name="Fungus2_11">
+    <altName>Fungus2_11</altName>
+  </room>
+  <room name="Fungus2_12">
+    <altName>Fungus2_12</altName>
+  </room>
+  <room name="Fungus2_13">
+    <altName>Fungus2_13</altName>
+  </room>
+  <room name="Fungus2_14">
+    <altName>Fungus2_14</altName>
+  </room>
+  <room name="Fungus2_15">
+    <altName>Fungus2_15</altName>
+  </room>
+  <room name="Fungus2_17">
+    <altName>Fungus2_17</altName>
+  </room>
+  <room name="Fungus2_18">
+    <altName>Fungus2_18</altName>
+  </room>
+  <room name="Fungus2_19">
+    <altName>Fungus2_19</altName>
+  </room>
+  <room name="Fungus2_20">
+    <altName>Fungus2_20</altName>
+  </room>
+  <room name="Fungus2_21">
+    <altName>Fungus2_21</altName>
+  </room>
+  <room name="Fungus2_23">
+    <altName>Fungus2_23</altName>
+  </room>
+  <room name="Fungus2_26">
+    <altName>Fungus2_26</altName>
+  </room>
+  <room name="Fungus2_28">
+    <altName>Fungus2_28</altName>
+  </room>
+  <room name="Fungus2_29">
+    <altName>Fungus2_29</altName>
+  </room>
+  <room name="Fungus2_30">
+    <altName>Fungus2_30</altName>
+  </room>
+  <room name="Fungus2_31">
+    <altName>Fungus2_31</altName>
+  </room>
+  <room name="Fungus2_32">
+    <altName>Fungus2_32</altName>
+  </room>
+  <room name="Fungus2_33">
+    <altName>Fungus2_33</altName>
+  </room>
+  <room name="Deepnest_01">
+    <altName>Deepnest_01</altName>
+  </room>
+  <room name="Deepnest_01b">
+    <altName>Deepnest_01b</altName>
+  </room>
+  <room name="Deepnest_02">
+    <altName>Deepnest_02</altName>
+  </room>
+  <room name="Deepnest_03">
+    <altName>Deepnest_03</altName>
+  </room>
+  <room name="Deepnest_09">
+    <altName>Deepnest_09</altName>
+  </room>
+  <room name="Deepnest_10">
+    <altName>Deepnest_10</altName>
+  </room>
+  <room name="Room_spider_small">
+    <altName>Room_spider_small</altName>
+  </room>
+  <room name="Deepnest_Spider_Town">
+    <altName>Deepnest_Spider_Town</altName>
+  </room>
+  <room name="Deepnest_14">
+    <altName>Deepnest_14</altName>
+  </room>
+  <room name="Deepnest_16">
+    <altName>Deepnest_16</altName>
+  </room>
+  <room name="Deepnest_17">
+    <altName>Deepnest_17</altName>
+  </room>
+  <room name="Fungus2_25">
+    <altName>Fungus2_25</altName>
+  </room>
+  <room name="Deepnest_26">
+    <altName>Deepnest_26</altName>
+  </room>
+  <room name="Deepnest_26b">
+    <altName>Deepnest_26b</altName>
+  </room>
+  <room name="Deepnest_30">
+    <altName>Deepnest_30</altName>
+  </room>
+  <room name="Deepnest_31">
+    <altName>Deepnest_31</altName>
+  </room>
+  <room name="Deepnest_32">
+    <altName>Deepnest_32</altName>
+  </room>
+  <room name="Deepnest_33">
+    <altName>Deepnest_33</altName>
+  </room>
+  <room name="Deepnest_34">
+    <altName>Deepnest_34</altName>
+  </room>
+  <room name="Deepnest_35">
+    <altName>Deepnest_35</altName>
+  </room>
+  <room name="Deepnest_36">
+    <altName>Deepnest_36</altName>
+  </room>
+  <room name="Deepnest_37">
+    <altName>Deepnest_37</altName>
+  </room>
+  <room name="Deepnest_38">
+    <altName>Deepnest_38</altName>
+  </room>
+  <room name="Deepnest_39">
+    <altName>Deepnest_39</altName>
+  </room>
+  <room name="Deepnest_40">
+    <altName>Deepnest_40</altName>
+  </room>
+  <room name="Deepnest_41">
+    <altName>Deepnest_41</altName>
+  </room>
+  <room name="Deepnest_42">
+    <altName>Deepnest_42</altName>
+  </room>
+  <room name="Deepnest_43">
+    <altName>Deepnest_43</altName>
+  </room>
+  <room name="Deepnest_44">
+    <altName>Deepnest_44</altName>
+  </room>
+  <room name="Deepnest_45_v02">
+    <altName>Deepnest_45_v02</altName>
+  </room>
+  <room name="Room_Mask_Maker">
+    <altName>Room_Mask_Maker</altName>
+  </room>
+  <room name="Deepnest_East_01">
+    <altName>Deepnest_East_01</altName>
+  </room>
+  <room name="Deepnest_East_02">
+    <altName>Deepnest_East_02</altName>
+  </room>
+  <room name="Deepnest_East_03">
+    <altName>Deepnest_East_03</altName>
+  </room>
+  <room name="Deepnest_East_04">
+    <altName>Deepnest_East_04</altName>
+  </room>
+  <room name="Deepnest_East_06">
+    <altName>Deepnest_East_06</altName>
+  </room>
+  <room name="Deepnest_East_07">
+    <altName>Deepnest_East_07</altName>
+  </room>
+  <room name="Deepnest_East_08">
+    <altName>Deepnest_East_08</altName>
+  </room>
+  <room name="Deepnest_East_09">
+    <altName>Deepnest_East_09</altName>
+  </room>
+  <room name="Deepnest_East_10">
+    <altName>Deepnest_East_10</altName>
+  </room>
+  <room name="Deepnest_East_11">
+    <altName>Deepnest_East_11</altName>
+  </room>
+  <room name="Deepnest_East_12">
+    <altName>Deepnest_East_12</altName>
+  </room>
+  <room name="Deepnest_East_13">
+    <altName>Deepnest_East_13</altName>
+  </room>
+  <room name="Deepnest_East_14">
+    <altName>Deepnest_East_14</altName>
+  </room>
+  <room name="Deepnest_East_14b">
+    <altName>Deepnest_East_14b</altName>
+  </room>
+  <room name="Deepnest_East_15">
+    <altName>Deepnest_East_15</altName>
+  </room>
+  <room name="Deepnest_East_16">
+    <altName>Deepnest_East_16</altName>
+  </room>
+  <room name="Deepnest_East_17">
+    <altName>Deepnest_East_17</altName>
+  </room>
+  <room name="Deepnest_East_18">
+    <altName>Deepnest_East_18</altName>
+  </room>
+  <room name="Room_nailmaster_03">
+    <altName>Room_nailmaster_03</altName>
+  </room>
+  <room name="Deepnest_East_Hornet">
+    <altName>Deepnest_East_Hornet</altName>
+  </room>
+  <room name="Room_Wyrm">
+    <altName>Room_Wyrm</altName>
+  </room>
+  <room name="GG_Lurker">
+    <altName>GG_Lurker</altName>
+  </room>
+  <room name="Hive_01">
+    <altName>Hive_01</altName>
+  </room>
+  <room name="Hive_02">
+    <altName>Hive_02</altName>
+  </room>
+  <room name="Hive_03_c">
+    <altName>Hive_03_c</altName>
+  </room>
+  <room name="Hive_03">
+    <altName>Hive_03</altName>
+  </room>
+  <room name="Hive_04">
+    <altName>Hive_04</altName>
+  </room>
+  <room name="Hive_05">
+    <altName>Hive_05</altName>
+  </room>
+  <room name="Room_Colosseum_01">
+    <altName>Room_Colosseum_01</altName>
+  </room>
+  <room name="Room_Colosseum_02">
+    <altName>Room_Colosseum_02</altName>
+  </room>
+  <room name="Room_Colosseum_Spectate">
+    <altName>Room_Colosseum_Spectate</altName>
+  </room>
+  <room name="Abyss_01">
+    <altName>Abyss_01</altName>
+  </room>
+  <room name="Abyss_02">
+    <altName>Abyss_02</altName>
+  </room>
+  <room name="Abyss_03">
+    <altName>Abyss_03</altName>
+  </room>
+  <room name="Abyss_03_b">
+    <altName>Abyss_03_b</altName>
+  </room>
+  <room name="Abyss_03_c">
+    <altName>Abyss_03_c</altName>
+  </room>
+  <room name="Abyss_04">
+    <altName>Abyss_04</altName>
+  </room>
+  <room name="Abyss_05">
+    <altName>Abyss_05</altName>
+  </room>
+  <room name="Abyss_06_Core">
+    <altName>Abyss_06_Core</altName>
+  </room>
+  <room name="Abyss_08">
+    <altName>Abyss_08</altName>
+  </room>
+  <room name="Abyss_09">
+    <altName>Abyss_09</altName>
+  </room>
+  <room name="Abyss_10">
+    <altName>Abyss_10</altName>
+  </room>
+  <room name="Abyss_12">
+    <altName>Abyss_12</altName>
+  </room>
+  <room name="Abyss_15">
+    <altName>Abyss_15</altName>
+  </room>
+  <room name="Abyss_16">
+    <altName>Abyss_16</altName>
+  </room>
+  <room name="Abyss_17">
+    <altName>Abyss_17</altName>
+  </room>
+  <room name="Abyss_18">
+    <altName>Abyss_18</altName>
+  </room>
+  <room name="Abyss_19">
+    <altName>Abyss_19</altName>
+  </room>
+  <room name="Abyss_20">
+    <altName>Abyss_20</altName>
+  </room>
+  <room name="Abyss_21">
+    <altName>Abyss_21</altName>
+  </room>
+  <room name="Abyss_22">
+    <altName>Abyss_22</altName>
+  </room>
+  <room name="Abyss_Lighthouse_room">
+    <altName>Abyss_Lighthouse_room</altName>
+  </room>
+  <room name="Waterways_01">
+    <altName>Waterways_01</altName>
+  </room>
+  <room name="Waterways_02">
+    <altName>Waterways_02</altName>
+  </room>
+  <room name="Waterways_03">
+    <altName>Waterways_03</altName>
+  </room>
+  <room name="Waterways_04">
+    <altName>Waterways_04</altName>
+  </room>
+  <room name="Waterways_04b">
+    <altName>Waterways_04b</altName>
+  </room>
+  <room name="Waterways_05">
+    <altName>Waterways_05</altName>
+  </room>
+  <room name="Waterways_06">
+    <altName>Waterways_06</altName>
+  </room>
+  <room name="Waterways_07">
+    <altName>Waterways_07</altName>
+  </room>
+  <room name="Waterways_08">
+    <altName>Waterways_08</altName>
+  </room>
+  <room name="Waterways_09">
+    <altName>Waterways_09</altName>
+  </room>
+  <room name="Waterways_12">
+    <altName>Waterways_12</altName>
+  </room>
+  <room name="Waterways_13">
+    <altName>Waterways_13</altName>
+  </room>
+  <room name="Waterways_14">
+    <altName>Waterways_14</altName>
+  </room>
+  <room name="Waterways_15">
+    <altName>Waterways_15</altName>
+  </room>
+  <room name="GG_Pipeway">
+    <altName>GG_Pipeway</altName>
+  </room>
+  <room name="GG_Waterways">
+    <altName>GG_Waterways</altName>
+  </room>
+  <room name="Room_GG_Shortcut">
+    <altName>Room_GG_Shortcut</altName>
+  </room>
+  <room name="Ruins1_01">
+    <altName>Ruins1_01</altName>
+  </room>
+  <room name="Ruins1_02">
+    <altName>Ruins1_02</altName>
+  </room>
+  <room name="Ruins1_03">
+    <altName>Ruins1_03</altName>
+  </room>
+  <room name="Ruins1_04">
+    <altName>Ruins1_04</altName>
+  </room>
+  <room name="Ruins1_05b">
+    <altName>Ruins1_05b</altName>
+  </room>
+  <room name="Ruins1_05c">
+    <altName>Ruins1_05c</altName>
+  </room>
+  <room name="Ruins1_05">
+    <altName>Ruins1_05</altName>
+  </room>
+  <room name="Ruins1_06">
+    <altName>Ruins1_06</altName>
+  </room>
+  <room name="Ruins1_09">
+    <altName>Ruins1_09</altName>
+  </room>
+  <room name="Ruins1_17">
+    <altName>Ruins1_17</altName>
+  </room>
+  <room name="Ruins1_18">
+    <altName>Ruins1_18</altName>
+  </room>
+  <room name="Ruins1_23">
+    <altName>Ruins1_23</altName>
+  </room>
+  <room name="Ruins1_24">
+    <altName>Ruins1_24</altName>
+  </room>
+  <room name="Ruins1_25">
+    <altName>Ruins1_25</altName>
+  </room>
+  <room name="Ruins1_27">
+    <altName>Ruins1_27</altName>
+  </room>
+  <room name="Ruins1_28">
+    <altName>Ruins1_28</altName>
+  </room>
+  <room name="Ruins1_29">
+    <altName>Ruins1_29</altName>
+  </room>
+  <room name="Ruins1_30">
+    <altName>Ruins1_30</altName>
+  </room>
+  <room name="Ruins1_31">
+    <altName>Ruins1_31</altName>
+  </room>
+  <room name="Ruins1_31b">
+    <altName>Ruins1_31b</altName>
+  </room>
+  <room name="Ruins1_32">
+    <altName>Ruins1_32</altName>
+  </room>
+  <room name="Room_nailsmith">
+    <altName>Room_nailsmith</altName>
+  </room>
+  <room name="Ruins2_01">
+    <altName>Ruins2_01</altName>
+  </room>
+  <room name="Ruins2_01_b">
+    <altName>Ruins2_01_b</altName>
+  </room>
+  <room name="Ruins2_03b">
+    <altName>Ruins2_03b</altName>
+  </room>
+  <room name="Ruins2_03">
+    <altName>Ruins2_03</altName>
+  </room>
+  <room name="Ruins2_04">
+    <altName>Ruins2_04</altName>
+  </room>
+  <room name="Ruins2_05">
+    <altName>Ruins2_05</altName>
+  </room>
+  <room name="Ruins2_06">
+    <altName>Ruins2_06</altName>
+  </room>
+  <room name="Ruins2_07">
+    <altName>Ruins2_07</altName>
+  </room>
+  <room name="Ruins2_08">
+    <altName>Ruins2_08</altName>
+  </room>
+  <room name="Ruins2_09">
+    <altName>Ruins2_09</altName>
+  </room>
+  <room name="Ruins2_10">
+    <altName>Ruins2_10</altName>
+  </room>
+  <room name="Ruins2_10b">
+    <altName>Ruins2_10b</altName>
+  </room>
+  <room name="Ruins2_11_b">
+    <altName>Ruins2_11_b</altName>
+  </room>
+  <room name="Ruins2_11">
+    <altName>Ruins2_11</altName>
+  </room>
+  <room name="Ruins2_Watcher_Room">
+    <altName>Ruins2_Watcher_Room</altName>
+  </room>
+  <room name="Ruins_House_01">
+    <altName>Ruins_House_01</altName>
+  </room>
+  <room name="Ruins_House_02">
+    <altName>Ruins_House_02</altName>
+  </room>
+  <room name="Ruins_House_03">
+    <altName>Ruins_House_03</altName>
+  </room>
+  <room name="Ruins_Elevator">
+    <altName>Ruins_Elevator</altName>
+  </room>
+  <room name="Ruins_Bathhouse">
+    <altName>Ruins_Bathhouse</altName>
+  </room>
+  <room name="RestingGrounds_02">
+    <altName>RestingGrounds_02</altName>
+  </room>
+  <room name="RestingGrounds_04">
+    <altName>RestingGrounds_04</altName>
+  </room>
+  <room name="RestingGrounds_05">
+    <altName>RestingGrounds_05</altName>
+  </room>
+  <room name="RestingGrounds_06">
+    <altName>RestingGrounds_06</altName>
+  </room>
+  <room name="RestingGrounds_07">
+    <altName>RestingGrounds_07</altName>
+  </room>
+  <room name="RestingGrounds_08">
+    <altName>RestingGrounds_08</altName>
+  </room>
+  <room name="RestingGrounds_09">
+    <altName>RestingGrounds_09</altName>
+  </room>
+  <room name="RestingGrounds_10">
+    <altName>RestingGrounds_10</altName>
+  </room>
+  <room name="RestingGrounds_12">
+    <altName>RestingGrounds_12</altName>
+  </room>
+  <room name="RestingGrounds_17">
+    <altName>RestingGrounds_17</altName>
+  </room>
+  <room name="Room_Mansion">
+    <altName>Room_Mansion</altName>
+  </room>
+  <room name="Mines_01">
+    <altName>Mines_01</altName>
+  </room>
+  <room name="Mines_02">
+    <altName>Mines_02</altName>
+  </room>
+  <room name="Mines_03">
+    <altName>Mines_03</altName>
+  </room>
+  <room name="Mines_04">
+    <altName>Mines_04</altName>
+  </room>
+  <room name="Mines_05">
+    <altName>Mines_05</altName>
+  </room>
+  <room name="Mines_06">
+    <altName>Mines_06</altName>
+  </room>
+  <room name="Mines_07">
+    <altName>Mines_07</altName>
+  </room>
+  <room name="Mines_10">
+    <altName>Mines_10</altName>
+  </room>
+  <room name="Mines_11">
+    <altName>Mines_11</altName>
+  </room>
+  <room name="Mines_13">
+    <altName>Mines_13</altName>
+  </room>
+  <room name="Mines_16">
+    <altName>Mines_16</altName>
+  </room>
+  <room name="Mines_17">
+    <altName>Mines_17</altName>
+  </room>
+  <room name="Mines_18">
+    <altName>Mines_18</altName>
+  </room>
+  <room name="Mines_19">
+    <altName>Mines_19</altName>
+  </room>
+  <room name="Mines_20">
+    <altName>Mines_20</altName>
+  </room>
+  <room name="Mines_23">
+    <altName>Mines_23</altName>
+  </room>
+  <room name="Mines_24">
+    <altName>Mines_24</altName>
+  </room>
+  <room name="Mines_25">
+    <altName>Mines_25</altName>
+  </room>
+  <room name="Mines_28">
+    <altName>Mines_28</altName>
+  </room>
+  <room name="Mines_29">
+    <altName>Mines_29</altName>
+  </room>
+  <room name="Mines_30">
+    <altName>Mines_30</altName>
+  </room>
+  <room name="Mines_31">
+    <altName>Mines_31</altName>
+  </room>
+  <room name="Mines_32">
+    <altName>Mines_32</altName>
+  </room>
+  <room name="Mines_33">
+    <altName>Mines_33</altName>
+  </room>
+  <room name="Mines_34">
+    <altName>Mines_34</altName>
+  </room>
+  <room name="Mines_35">
+    <altName>Mines_35</altName>
+  </room>
+  <room name="Mines_36">
+    <altName>Mines_36</altName>
+  </room>
+  <room name="Mines_37">
+    <altName>Mines_37</altName>
+  </room>
+  <room name="Fungus3_04">
+    <altName>Fungus3_04</altName>
+  </room>
+  <room name="Fungus3_05">
+    <altName>Fungus3_05</altName>
+  </room>
+  <room name="Fungus3_08">
+    <altName>Fungus3_08</altName>
+  </room>
+  <room name="Fungus3_10">
+    <altName>Fungus3_10</altName>
+  </room>
+  <room name="Fungus3_11">
+    <altName>Fungus3_11</altName>
+  </room>
+  <room name="Fungus3_13">
+    <altName>Fungus3_13</altName>
+  </room>
+  <room name="Fungus3_21">
+    <altName>Fungus3_21</altName>
+  </room>
+  <room name="Fungus3_22">
+    <altName>Fungus3_22</altName>
+  </room>
+  <room name="Fungus3_23">
+    <altName>Fungus3_23</altName>
+  </room>
+  <room name="Fungus3_34">
+    <altName>Fungus3_34</altName>
+  </room>
+  <room name="Fungus3_39">
+    <altName>Fungus3_39</altName>
+  </room>
+  <room name="Fungus3_40">
+    <altName>Fungus3_40</altName>
+  </room>
+  <room name="Fungus3_48">
+    <altName>Fungus3_48</altName>
+  </room>
+  <room name="Fungus3_49">
+    <altName>Fungus3_49</altName>
+  </room>
+  <room name="Fungus3_50">
+    <altName>Fungus3_50</altName>
+  </room>
+  <room name="Room_Queen">
+    <altName>Room_Queen</altName>
+  </room>
+  <room name="Cliffs_01">
+    <altName>Cliffs_01</altName>
+  </room>
+  <room name="Cliffs_02">
+    <altName>Cliffs_02</altName>
+  </room>
+  <room name="Cliffs_03">
+    <altName>Cliffs_03</altName>
+  </room>
+  <room name="Cliffs_04">
+    <altName>Cliffs_04</altName>
+  </room>
+  <room name="Cliffs_05">
+    <altName>Cliffs_05</altName>
+  </room>
+  <room name="Cliffs_06">
+    <altName>Cliffs_06</altName>
+  </room>
+  <room name="Room_nailmaster">
+    <altName>Room_nailmaster</altName>
+  </room>
+  <room name="White_Palace_01">
+    <altName>White_Palace_01</altName>
+  </room>
+  <room name="White_Palace_02">
+    <altName>White_Palace_02</altName>
+  </room>
+  <room name="White_Palace_03_hub">
+    <altName>White_Palace_03_hub</altName>
+  </room>
+  <room name="White_Palace_04">
+    <altName>White_Palace_04</altName>
+  </room>
+  <room name="White_Palace_05">
+    <altName>White_Palace_05</altName>
+  </room>
+  <room name="White_Palace_06">
+    <altName>White_Palace_06</altName>
+  </room>
+  <room name="White_Palace_07">
+    <altName>White_Palace_07</altName>
+  </room>
+  <room name="White_Palace_08">
+    <altName>White_Palace_08</altName>
+  </room>
+  <room name="White_Palace_09">
+    <altName>White_Palace_09</altName>
+  </room>
+  <room name="White_Palace_11">
+    <altName>White_Palace_11</altName>
+  </room>
+  <room name="White_Palace_12">
+    <altName>White_Palace_12</altName>
+  </room>
+  <room name="White_Palace_13">
+    <altName>White_Palace_13</altName>
+  </room>
+  <room name="White_Palace_14">
+    <altName>White_Palace_14</altName>
+  </room>
+  <room name="White_Palace_15">
+    <altName>White_Palace_15</altName>
+  </room>
+  <room name="White_Palace_16">
+    <altName>White_Palace_16</altName>
+  </room>
+  <room name="White_Palace_17">
+    <altName>White_Palace_17</altName>
+  </room>
+  <room name="White_Palace_18">
+    <altName>White_Palace_18</altName>
+  </room>
+  <room name="White_Palace_19">
+    <altName>White_Palace_19</altName>
+  </room>
+  <room name="White_Palace_20">
+    <altName>White_Palace_20</altName>
+  </room>
+</randomizer>
