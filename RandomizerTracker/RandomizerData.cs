@@ -51,7 +51,12 @@ namespace RandomizerTracker
                 ("Map", "Maps: "),
                 ("Stag", "Stags: "),
                 ("Grub", "Grubs: "),
-                ("Root", "Whispering roots: ")
+                ("Root", "Whispering roots: "),
+                ("Rock", "Geo rocks: "),
+                ("Soul","Soul totems: "),
+                ("Cocoon", "Lifeblood cocoons: "),
+                ("Flame","Grimmkin flames: "),
+                ("PalaceSoul", "Palace Totems: ")
             };
             randomizedPools = new Dictionary<string, bool>();
             foreach (var pair in pools)

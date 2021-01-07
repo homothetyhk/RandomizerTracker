@@ -1,0 +1,3314 @@
+<randomizer>
+  <item name="Geo_Rock-Broken_Elevator_1">
+    <sceneName>Abyss_01</sceneName>
+    <objectName>Geo Rock 2 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Right_City | (Upper_Basin + CLAW) | (Central_Left_Waterways + (CLAW | WINGS) + (SUPERDASH | (ACID + TUNNEL))) | (Right_Waterways + CLAW + (SUPERDASH | (TUNNEL + (ACID + WINGS))))</itemLogic>
+    <areaLogic>Abyss_01[right1] | (Abyss_01[left3] + CLAW) | (Central_Left_Waterways + (CLAW | WINGS) + (SUPERDASH | (ACID + TUNNEL))) | (Right_Waterways + CLAW + (SUPERDASH | (TUNNEL + (ACID + WINGS))))</areaLogic>
+    <roomLogic>Abyss_01[right1] | Abyss_01[left1] | (Abyss_01[left3] + CLAW) | ((Abyss_01[left2] | Abyss_01[right2]) + (CLAW | WINGS) + (SUPERDASH | TUNNEL))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Geo_Rock-Broken_Elevator_2">
+    <sceneName>Abyss_01</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>(Right_City | (Upper_Basin + CLAW) | (Central_Left_Waterways + (CLAW | WINGS) + (SUPERDASH | (ACID + TUNNEL))) | (Right_Waterways + CLAW + (SUPERDASH | (TUNNEL + (ACID + WINGS))))) + (DASH | SPIKETUNNELS)</itemLogic>
+    <areaLogic>(Abyss_01[right1] | (Abyss_01[left3] + CLAW) | (Central_Left_Waterways + (CLAW | WINGS) + (SUPERDASH | (ACID + TUNNEL))) | (Right_Waterways + CLAW + (SUPERDASH | (TUNNEL + (ACID + WINGS))))) + (DASH | SPIKETUNNELS)</areaLogic>
+    <roomLogic>(Abyss_01[right1] | Abyss_01[left1] | (Abyss_01[left3] + CLAW) | ((Abyss_01[left2] | Abyss_01[right2]) + (CLAW | WINGS) + (SUPERDASH | TUNNEL))) + (DASH | SPIKETUNNELS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Geo_Rock-Broken_Elevator_3">
+    <sceneName>Abyss_01</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Right_City | (Upper_Basin + CLAW) | (Central_Left_Waterways + (CLAW | WINGS) + (SUPERDASH | (ACID + TUNNEL))) | (Right_Waterways + CLAW + (SUPERDASH | (TUNNEL + (ACID + WINGS))))</itemLogic>
+    <areaLogic>Abyss_01[right1] | (Abyss_01[left3] + CLAW) | (Central_Left_Waterways + (CLAW | WINGS) + (SUPERDASH | (ACID + TUNNEL))) | (Right_Waterways + CLAW + (SUPERDASH | (TUNNEL + (ACID + WINGS))))</areaLogic>
+    <roomLogic>Abyss_01[right1] | Abyss_01[left1] | (Abyss_01[left3] + CLAW) | ((Abyss_01[left2] | Abyss_01[right2]) + (CLAW | WINGS) + (SUPERDASH | TUNNEL))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Geo_Rock-Broken_Bridge_Upper">
+    <sceneName>Abyss_02</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Basin + (CLAW | WINGS | MILDSKIPS)</itemLogic>
+    <areaLogic>Upper_Basin + (CLAW | WINGS)</areaLogic>
+    <roomLogic>(Abyss_02[right1] | Abyss_02[bot1]) + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancient_Basin</areaName>
+  </item>
+  <item name="Geo_Rock-Broken_Bridge_Lower">
+    <sceneName>Abyss_02</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Basin</itemLogic>
+    <areaLogic>Upper_Basin</areaLogic>
+    <roomLogic>Abyss_02[right1] | (Abyss_02[bot1] + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancient_Basin</areaName>
+  </item>
+  <item name="Geo_Rock-Broken_Bridge_Lower_Dupe">
+    <sceneName>Abyss_02</sceneName>
+    <objectName>Geo Rock Deepnest (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Basin</itemLogic>
+    <areaLogic>Upper_Basin</areaLogic>
+    <roomLogic>Abyss_02[right1] | (Abyss_02[bot1] + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancient_Basin</areaName>
+  </item>
+  <item name="Geo_Rock-Abyss_1">
+    <sceneName>Abyss_06_Core</sceneName>
+    <objectName>_Props\Geo Rock Abyss</objectName>
+    <replace>true</replace>
+    <itemLogic>Abyss + (DASH | CLAW | WINGS | SUPERDASH)</itemLogic>
+    <areaLogic>Abyss + (DASH | CLAW | WINGS | SUPERDASH)</areaLogic>
+    <roomLogic>(Abyss_06_Core[top1] + King's_Brand + (DASH | CLAW | WINGS | SUPERDASH)) | ((Abyss_06_Core[left1] | Abyss_06_Core[left3] | Abyss_06_Core[right2] | Abyss_06_Core[bot1]) + ((CLAW + DASH) | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>35</geo>
+    <nameKey>RANDOMIZER_NAME_35GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Abyss</areaName>
+  </item>
+  <item name="Geo_Rock-Abyss_2">
+    <sceneName>Abyss_06_Core</sceneName>
+    <objectName>Geo Rock Abyss</objectName>
+    <replace>true</replace>
+    <itemLogic>Abyss + (DASH | CLAW | WINGS)</itemLogic>
+    <areaLogic>Abyss + (DASH | CLAW | WINGS)</areaLogic>
+    <roomLogic>(Abyss_06_Core[top1] + King's_Brand + (DASH | CLAW | WINGS)) | ((Abyss_06_Core[left1] | Abyss_06_Core[left3] | Abyss_06_Core[right2] | Abyss_06_Core[bot1]) + ((CLAW + DASH) | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>35</geo>
+    <nameKey>RANDOMIZER_NAME_35GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Abyss</areaName>
+  </item>
+  <item name="Geo_Rock-Abyss_3">
+    <sceneName>Abyss_06_Core</sceneName>
+    <objectName>Geo Rock Abyss (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Abyss</itemLogic>
+    <areaLogic>Abyss</areaLogic>
+    <roomLogic>(Abyss_06_Core[top1] + King's_Brand) | ((Abyss_06_Core[left3] | Abyss_06_Core[right2] | Abyss_06_Core[bot1]) + ((CLAW + DASH) | WINGS)) | Abyss_06_Core[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>35</geo>
+    <nameKey>RANDOMIZER_NAME_35GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Abyss</areaName>
+  </item>
+  <item name="Geo_Rock-Basin_Tunnel">
+    <sceneName>Abyss_18</sceneName>
+    <objectName>Geo Rock Abyss</objectName>
+    <replace>true</replace>
+    <itemLogic>Lower_Basin + (CLAW | WINGS | SUPERDASH)</itemLogic>
+    <areaLogic>Lower_Basin + (CLAW | WINGS | SUPERDASH)</areaLogic>
+    <roomLogic>(Abyss_18[left1] | Abyss_18[right1]) + (CLAW | WINGS | SUPERDASH)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>35</geo>
+    <nameKey>RANDOMIZER_NAME_35GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancient_Basin</areaName>
+  </item>
+  <item name="Geo_Rock-Basin_Grub">
+    <sceneName>Abyss_19</sceneName>
+    <objectName>Geo Rock Abyss</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Left_Basin + WINGS</itemLogic>
+    <areaLogic>Far_Left_Basin + WINGS</areaLogic>
+    <roomLogic>Abyss_19 + WINGS</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>35</geo>
+    <nameKey>RANDOMIZER_NAME_35GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancient_Basin</areaName>
+  </item>
+  <item name="Geo_Rock-Basin_Before_Broken_Vessel">
+    <sceneName>Abyss_19</sceneName>
+    <objectName>Geo Rock Abyss (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Left_Basin</itemLogic>
+    <areaLogic>Far_Left_Basin</areaLogic>
+    <roomLogic>(Abyss_19[bot1] + (CLAW | WINGS)) | Abyss_19[bot2] | Abyss_19[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>35</geo>
+    <nameKey>RANDOMIZER_NAME_35GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancient_Basin</areaName>
+  </item>
+  <item name="Geo_Rock-Cliffs_Main_1">
+    <sceneName>Cliffs_01</sceneName>
+    <objectName>Geo Rock 2 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Howling_Cliffs</itemLogic>
+    <areaLogic>Howling_Cliffs</areaLogic>
+    <roomLogic>Cliffs_01[right1] | (Cliffs_01[right2] + (MILDSKIPS | DASH | CLAW | WINGS | AIRSTALL)) | ((Cliffs_01[right3] | Cliffs_01[right4]) + ((DASH + MILDSKIPS) | CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Geo_Rock-Cliffs_Main_2">
+    <sceneName>Cliffs_01</sceneName>
+    <objectName>Geo Rock 2 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Howling_Cliffs</itemLogic>
+    <areaLogic>Howling_Cliffs</areaLogic>
+    <roomLogic>Cliffs_01[right1] | Cliffs_01[right2] | ((Cliffs_01[right3] | Cliffs_01[right4]) + ((DASH + MILDSKIPS) | CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Geo_Rock-Cliffs_Main_3">
+    <sceneName>Cliffs_01</sceneName>
+    <objectName>Geo Rock 2 (4)</objectName>
+    <replace>true</replace>
+    <itemLogic>Howling_Cliffs + (DASH | CLAW | WINGS | SUPERDASH | MILDSKIPS | AIRSTALL)</itemLogic>
+    <areaLogic>Howling_Cliffs + (DASH | CLAW | WINGS | SUPERDASH | MILDSKIPS | AIRSTALL)</areaLogic>
+    <roomLogic>((Cliffs_01[right1] | Cliffs_01[right2]) + (DASH | CLAW | WINGS | SUPERDASH | MILDSKIPS | AIRSTALL)) | ((Cliffs_01[right3] | Cliffs_01[right4]) + ((DASH + MILDSKIPS) | CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Geo_Rock-Cliffs_Main_4">
+    <sceneName>Cliffs_01</sceneName>
+    <objectName>Geo Rock 2 (3)</objectName>
+    <replace>true</replace>
+    <itemLogic>Howling_Cliffs</itemLogic>
+    <areaLogic>Howling_Cliffs</areaLogic>
+    <roomLogic>Cliffs_01[right1] | Cliffs_01[right2] | ((Cliffs_01[right3] | Cliffs_01[right4]) + ((DASH + MILDSKIPS) | CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Geo_Rock-Below_Gorb_Dupe">
+    <sceneName>Cliffs_02</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Howling_Cliffs</itemLogic>
+    <areaLogic>Howling_Cliffs</areaLogic>
+    <roomLogic>Cliffs_02</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Geo_Rock-Below_Gorb">
+    <sceneName>Cliffs_02</sceneName>
+    <objectName>Geo Rock 1 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Howling_Cliffs</itemLogic>
+    <areaLogic>Howling_Cliffs</areaLogic>
+    <roomLogic>Cliffs_02</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Well">
+    <sceneName>Crossroads_01</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_01[left1] | Crossroads_01[top1] | Crossroads_01[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Center_Grub">
+    <sceneName>Crossroads_05</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_05[left1] | Crossroads_05[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Root">
+    <sceneName>Crossroads_07</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads + CLAW</itemLogic>
+    <areaLogic>Crossroads + CLAW</areaLogic>
+    <roomLogic>Crossroads_07 + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Root_Dupe_1">
+    <sceneName>Crossroads_07</sceneName>
+    <objectName>Geo Rock 1 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads + CLAW</itemLogic>
+    <areaLogic>Crossroads + CLAW</areaLogic>
+    <roomLogic>Crossroads_07 + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Root_Dupe_2">
+    <sceneName>Crossroads_07</sceneName>
+    <objectName>Geo Rock 1 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads + CLAW</itemLogic>
+    <areaLogic>Crossroads + CLAW</areaLogic>
+    <roomLogic>Crossroads_07 + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Aspid_Arena">
+    <sceneName>Crossroads_08</sceneName>
+    <objectName>Geo Rock 1 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_08</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Aspid_Arena_Dupe_1">
+    <sceneName>Crossroads_08</sceneName>
+    <objectName>Geo Rock 1 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_08</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Aspid_Arena_Dupe_2">
+    <sceneName>Crossroads_08</sceneName>
+    <objectName>Geo Rock 1 (3)</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_08</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Aspid_Arena_Hidden">
+    <sceneName>Crossroads_08</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_08</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Above_False_Knight">
+    <sceneName>Crossroads_10</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads + (CLAW | (WINGS + INFECTED))</itemLogic>
+    <areaLogic>Crossroads + (CLAW | (WINGS + INFECTED))</areaLogic>
+    <roomLogic>Crossroads_10 + (CLAW | (WINGS + INFECTED))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Before_Acid_Grub">
+    <sceneName>Crossroads_12</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_12[left1] | Crossroads_12[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Below_Goam_Mask_Shard">
+    <sceneName>Crossroads_13</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_13[left1] | Crossroads_13[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_After_Goam_Mask_Shard">
+    <sceneName>Crossroads_13</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_13[left1] | Crossroads_13[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Above_Lever">
+    <sceneName>Crossroads_16</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_16[left1] | Crossroads_16[right1] | Crossroads_16[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Before_Fungal">
+    <sceneName>Crossroads_18</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_18[right1] | Crossroads_18[bot1] | Crossroads_18[right2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Before_Fungal_Dupe_1">
+    <sceneName>Crossroads_18</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_18[right1] | Crossroads_18[bot1] | Crossroads_18[right2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Before_Fungal_Dupe_2">
+    <sceneName>Crossroads_18</sceneName>
+    <objectName>Geo Rock 3</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_18[right1] | Crossroads_18[bot1] | Crossroads_18[right2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Before_Shops">
+    <sceneName>Crossroads_19</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_19</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Before_Glowing_Womb">
+    <sceneName>Crossroads_21</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_21</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Above_Tram">
+    <sceneName>Crossroads_27</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_27</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Above_Mawlek">
+    <sceneName>Crossroads_36</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_36[right1] | Crossroads_36[right2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Vessel_Fragment">
+    <sceneName>Crossroads_37</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Left_Elevator</itemLogic>
+    <areaLogic>Left_Elevator</areaLogic>
+    <roomLogic>Crossroads_37[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Goam_Alcove">
+    <sceneName>Crossroads_42</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_42[left1] | Crossroads_42[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Goam_Damage_Boost">
+    <sceneName>Crossroads_42</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_42[left1] | Crossroads_42[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Tram">
+    <sceneName>Crossroads_46</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_46[left1] | (Crossroads_46b[right1] + TRAM)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Goam_Journal">
+    <sceneName>Crossroads_52</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads + QUAKE + (DASH | WINGS | INFECTED | (CLAW + AIRSTALL))</itemLogic>
+    <areaLogic>Crossroads + QUAKE + (DASH | WINGS | INFECTED | (CLAW + AIRSTALL))</areaLogic>
+    <roomLogic>Crossroads_52[left1] + QUAKE</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crossroads_Goam_Journal_Dupe">
+    <sceneName>Crossroads_52</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads + QUAKE + (DASH | WINGS | INFECTED | (CLAW + AIRSTALL))</itemLogic>
+    <areaLogic>Crossroads + QUAKE + (DASH | WINGS | INFECTED | (CLAW + AIRSTALL))</areaLogic>
+    <roomLogic>Crossroads_52[left1] + QUAKE</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Ancestral_Mound">
+    <sceneName>Crossroads_ShamanTemple</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancestral_Mound</areaName>
+  </item>
+  <item name="Geo_Rock-Ancestral_Mound_Dupe">
+    <sceneName>Crossroads_ShamanTemple</sceneName>
+    <objectName>_Items\Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads</itemLogic>
+    <areaLogic>Crossroads</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancestral_Mound</areaName>
+  </item>
+  <item name="Geo_Rock-Ancestral_Mound_Tree">
+    <sceneName>Crossroads_ShamanTemple</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads + WINGS</itemLogic>
+    <areaLogic>Crossroads + WINGS</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1] + WINGS</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancestral_Mound</areaName>
+  </item>
+  <item name="Geo_Rock-Ancestral_Mound_Tree_Dupe">
+    <sceneName>Crossroads_ShamanTemple</sceneName>
+    <objectName>Geo Rock 2 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Crossroads + WINGS</itemLogic>
+    <areaLogic>Crossroads + WINGS</areaLogic>
+    <roomLogic>Crossroads_ShamanTemple[left1] + WINGS</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Ancestral_Mound</areaName>
+  </item>
+  <item name="Geo_Rock-Moss_Prophet">
+    <sceneName>Deepnest_01</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Bottom_Left_Fungal_Wastes + (CLAW | WINGS | SUPERDASH | DASH)</itemLogic>
+    <areaLogic>Bottom_Left_Fungal_Wastes + (CLAW | WINGS | SUPERDASH | DASH)</areaLogic>
+    <roomLogic>Deepnest_01</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Moss_Prophet_Dupe">
+    <sceneName>Deepnest_01</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Bottom_Left_Fungal_Wastes + (CLAW | WINGS | SUPERDASH | DASH)</itemLogic>
+    <areaLogic>Bottom_Left_Fungal_Wastes + (CLAW | WINGS | SUPERDASH | DASH)</areaLogic>
+    <roomLogic>Deepnest_01</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Below_Mimics">
+    <sceneName>Deepnest_02</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (CLAW + (DASH | SUPERDASH))))</itemLogic>
+    <areaLogic>Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (CLAW + (DASH | SUPERDASH))))</areaLogic>
+    <roomLogic>Deepnest_02</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Below_Mimics_Dupe">
+    <sceneName>Deepnest_02</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (CLAW + (DASH | SUPERDASH))))</itemLogic>
+    <areaLogic>Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (CLAW + (DASH | SUPERDASH))))</areaLogic>
+    <roomLogic>Deepnest_02</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Below_Spike_Grub">
+    <sceneName>Deepnest_03</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Deepnest + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Deepnest + (CLAW | WINGS)</areaLogic>
+    <roomLogic>Deepnest_03[top1] | (Deepnest_03 + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Below_Spike_Grub_Dupe">
+    <sceneName>Deepnest_03</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Deepnest + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Deepnest + (CLAW | WINGS)</areaLogic>
+    <roomLogic>Deepnest_03[top1] | (Deepnest_03 + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Spike_Grub_Right">
+    <sceneName>Deepnest_03</sceneName>
+    <objectName>Geo Rock Deepnest (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Deepnest + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Deepnest + (CLAW | WINGS)</areaLogic>
+    <roomLogic>Deepnest_03[top1] | (Deepnest_03 + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_By_Mantis_Lords_Garpede_Pogo">
+    <sceneName>Deepnest_16</sceneName>
+    <objectName>Geo Rock Deepnest (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Right_Deepnest + (WINGS | CLAW)</itemLogic>
+    <areaLogic>Far_Right_Deepnest + (WINGS | CLAW)</areaLogic>
+    <roomLogic>Deepnest_16[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_By_Mantis_Lords_Garpede_Pogo_Dupe">
+    <sceneName>Deepnest_16</sceneName>
+    <objectName>Geo Rock Deepnest (4)</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Right_Deepnest + (WINGS | CLAW)</itemLogic>
+    <areaLogic>Far_Right_Deepnest + (WINGS | CLAW)</areaLogic>
+    <roomLogic>Deepnest_16[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_By_Mantis_Lords_Requires_Claw_1">
+    <sceneName>Deepnest_16</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Right_Deepnest + CLAW</itemLogic>
+    <areaLogic>Far_Right_Deepnest + CLAW</areaLogic>
+    <roomLogic>Deepnest_16[bot1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_By_Mantis_Lords_Requires_Claw_2">
+    <sceneName>Deepnest_16</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Right_Deepnest + CLAW</itemLogic>
+    <areaLogic>Far_Right_Deepnest + CLAW</areaLogic>
+    <roomLogic>Deepnest_16[bot1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_By_Mantis_Lords_Requires_Claw_3">
+    <sceneName>Deepnest_16</sceneName>
+    <objectName>Geo Rock Deepnest (3)</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Right_Deepnest + CLAW</itemLogic>
+    <areaLogic>Far_Right_Deepnest + CLAW</areaLogic>
+    <roomLogic>Deepnest_16[bot1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Nosk_1">
+    <sceneName>Deepnest_31</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Deepnest + (CLAW | WINGS) + (SUPERDASH | WINGS | (CLAW + SHADESKIPS))</itemLogic>
+    <areaLogic>Deepnest + (CLAW | WINGS) + (SUPERDASH | WINGS | (CLAW + SHADESKIPS))</areaLogic>
+    <roomLogic>(Deepnest_31[right1] | Deepnest_31[right2]) + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Nosk_2">
+    <sceneName>Deepnest_31</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Deepnest + (CLAW | WINGS) + (SUPERDASH | WINGS | (CLAW + SHADESKIPS))</itemLogic>
+    <areaLogic>Deepnest + (CLAW | WINGS) + (SUPERDASH | WINGS | (CLAW + SHADESKIPS))</areaLogic>
+    <roomLogic>(Deepnest_31[right1] | Deepnest_31[right2]) + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Nosk_3">
+    <sceneName>Deepnest_31</sceneName>
+    <objectName>Geo Rock Deepnest (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Deepnest + CLAW + (SUPERDASH | WINGS | SHADESKIPS)</itemLogic>
+    <areaLogic>Deepnest + CLAW + (SUPERDASH | WINGS | SHADESKIPS)</areaLogic>
+    <roomLogic>Deepnest_31[right2] | (Deepnest_31[right1] + CLAW)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Above_Galien">
+    <sceneName>Deepnest_35</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Dark_Deepnest + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Dark_Deepnest + (CLAW | WINGS)</areaLogic>
+    <roomLogic>(LANTERN | DARKROOMS) + ((Deepnest_35[top1] + (CLAW | WINGS)) | (Deepnest_35[left1] + CLAW) | (Deepnest_35[bot1] + CLAW))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Galien_Spike">
+    <sceneName>Deepnest_35</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Dark_Deepnest + (CLAW | (WINGS + MILDSKIPS))</itemLogic>
+    <areaLogic>Dark_Deepnest + (CLAW | (WINGS + MILDSKIPS))</areaLogic>
+    <roomLogic>(LANTERN | DARKROOMS) + ((Deepnest_35[top1] + (CLAW | WINGS)) | (Deepnest_35[left1] + (CLAW | WINGS)) | (Deepnest_35[bot1] + CLAW))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Garpede_1">
+    <sceneName>Deepnest_37</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Deepnest</itemLogic>
+    <areaLogic>Deepnest</areaLogic>
+    <roomLogic>Deepnest_37</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_Garpede_2">
+    <sceneName>Deepnest_37</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Deepnest</itemLogic>
+    <areaLogic>Deepnest</areaLogic>
+    <roomLogic>Deepnest_37</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Dark_Deepnest_Above_Grub_1">
+    <sceneName>Deepnest_39</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Dark_Deepnest + (CLAW | (WINGS + MILDSKIPS))</itemLogic>
+    <areaLogic>Dark_Deepnest + (CLAW | (WINGS + MILDSKIPS) | Deepnest_39[top1])</areaLogic>
+    <roomLogic>(LANTERN | DARKROOMS) + (Deepnest_39[top1] | (Deepnest_39[left1] + (DASH | CLAW | WINGS | MILDSKIPS)) | (Deepnest_39[right1] + (CLAW | (WINGS + MILDSKIPS))))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Dark_Deepnest_Above_Grub_2">
+    <sceneName>Deepnest_39</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Dark_Deepnest + (CLAW | (WINGS + MILDSKIPS))</itemLogic>
+    <areaLogic>Dark_Deepnest + (CLAW | (WINGS + MILDSKIPS) | Deepnest_39[top1])</areaLogic>
+    <roomLogic>(LANTERN | DARKROOMS) + (Deepnest_39[top1] | (Deepnest_39[left1] + (DASH | CLAW | WINGS | MILDSKIPS)) | (Deepnest_39[right1] + (CLAW | (WINGS + MILDSKIPS))))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Dark_Deepnest_Bottom_Left">
+    <sceneName>Deepnest_39</sceneName>
+    <objectName>Geo Rock Deepnest (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Dark_Deepnest + (CLAW | (WINGS + MILDSKIPS))</itemLogic>
+    <areaLogic>Dark_Deepnest + (CLAW | (WINGS + MILDSKIPS) | (Deepnest_39[door1] + DASH + (LANTERN | (DARKROOMS + SPICYSKIPS))))</areaLogic>
+    <roomLogic>(LANTERN | DARKROOMS) + (Deepnest_39[top1] | Deepnest_39[left1] | Deepnest_39[right1])</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Above_Mask_Maker_1">
+    <sceneName>Deepnest_43</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Bottom_Left_Queen's_Gardens + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Bottom_Left_Queen's_Gardens + (CLAW | WINGS)</areaLogic>
+    <roomLogic>(Deepnest_43[bot1] | Deepnest_43[left1] | Deepnest_43[right1]) + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Queens_Gardens</areaName>
+  </item>
+  <item name="Geo_Rock-Above_Mask_Maker_2">
+    <sceneName>Deepnest_43</sceneName>
+    <objectName>Geo Rock Green Path 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Bottom_Left_Queen's_Gardens + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Bottom_Left_Queen's_Gardens + (CLAW | WINGS)</areaLogic>
+    <roomLogic>(Deepnest_43[bot1] | Deepnest_43[left1] | Deepnest_43[right1]) + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Queens_Gardens</areaName>
+  </item>
+  <item name="Geo_Rock-Lower_Kingdom's_Edge_1">
+    <sceneName>Deepnest_East_01</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Lower_Kingdom's_Edge + (CLAW | WINGS | MILDSKIPS)</itemLogic>
+    <areaLogic>Lower_Kingdom's_Edge + (CLAW | WINGS | MILDSKIPS)</areaLogic>
+    <roomLogic>(Deepnest_East_01[bot1] | Deepnest_East_01[top1] | Deepnest_East_01[right1]) + (DASH | CLAW | WINGS | MILDSKIPS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Lower_Kingdom's_Edge_2">
+    <sceneName>Deepnest_East_01</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Lower_Kingdom's_Edge + (CLAW | WINGS | MILDSKIPS)</itemLogic>
+    <areaLogic>Lower_Kingdom's_Edge + (CLAW | WINGS | MILDSKIPS)</areaLogic>
+    <roomLogic>(Deepnest_East_01[bot1] | Deepnest_East_01[top1] | Deepnest_East_01[right1]) + (CLAW | WINGS | MILDSKIPS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Lower_Kingdom's_Edge_3">
+    <sceneName>Deepnest_East_02</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Lower_Kingdom's_Edge + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Lower_Kingdom's_Edge + (CLAW | WINGS)</areaLogic>
+    <roomLogic>Deepnest_East_02</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Lower_Kingdom's_Edge_Dive">
+    <sceneName>Deepnest_East_02</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Lower_Kingdom's_Edge + QUAKE + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Lower_Kingdom's_Edge + QUAKE + (CLAW | WINGS)</areaLogic>
+    <roomLogic>Deepnest_East_02 + QUAKE + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Kingdom's_Edge_Below_Bardoon">
+    <sceneName>Deepnest_East_04</sceneName>
+    <objectName>Geo Rock Outskirts</objectName>
+    <replace>true</replace>
+    <itemLogic>Center_Right_Kingdom's_Edge</itemLogic>
+    <areaLogic>Center_Right_Kingdom's_Edge</areaLogic>
+    <roomLogic>(Deepnest_East_04[left1] + ACID) | Deepnest_East_04[left2] | Deepnest_East_04[right2] | (Deepnest_East_04[right1] + (ACID | DASH | WINGS | AIRSTALL))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>44</geo>
+    <nameKey>RANDOMIZER_NAME_44GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Kingdom's_Edge_Oro_Far_Left">
+    <sceneName>Deepnest_East_06</sceneName>
+    <objectName>Geo Rock Outskirts</objectName>
+    <replace>true</replace>
+    <itemLogic>Central_Kingdom's_Edge + (CLAW | (WINGS + SHADESKIPS))</itemLogic>
+    <areaLogic>Central_Kingdom's_Edge + (CLAW | (WINGS + SHADESKIPS))</areaLogic>
+    <roomLogic>(Deepnest_East_06[left1] | Deepnest_East_06[top1] | Deepnest_East_06[bot1] | Deepnest_East_06[door1] | Deepnest_East_06[right1]) + (CLAW | (WINGS + SHADESKIPS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>44</geo>
+    <nameKey>RANDOMIZER_NAME_44GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Kingdom's_Edge_Oro_Middle_Left">
+    <sceneName>Deepnest_East_06</sceneName>
+    <objectName>Geo Rock Outskirts (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Central_Kingdom's_Edge + (CLAW | (WINGS + MILDSKIPS))</itemLogic>
+    <areaLogic>Central_Kingdom's_Edge + (CLAW | (WINGS + MILDSKIPS))</areaLogic>
+    <roomLogic>Deepnest_East_06[top1] | ((Deepnest_East_06[left1] | Deepnest_East_06[bot1] | Deepnest_East_06[door1] | Deepnest_East_06[right1]) + (CLAW | (WINGS + SPICYSKIPS)))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>44</geo>
+    <nameKey>RANDOMIZER_NAME_44GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Kingdom's_Edge_Above_Root">
+    <sceneName>Deepnest_East_07</sceneName>
+    <objectName>Geo Rock Outskirts</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Kingdom's_Edge</itemLogic>
+    <areaLogic>Upper_Kingdom's_Edge</areaLogic>
+    <roomLogic>Deepnest_East_07</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>44</geo>
+    <nameKey>RANDOMIZER_NAME_44GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Kingdom's_Edge_Above_Tower">
+    <sceneName>Deepnest_East_07</sceneName>
+    <objectName>Geo Rock Outskirts (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Kingdom's_Edge</itemLogic>
+    <areaLogic>Upper_Kingdom's_Edge</areaLogic>
+    <roomLogic>Deepnest_East_07</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>44</geo>
+    <nameKey>RANDOMIZER_NAME_44GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Kingdom's_Edge_Below_Colosseum">
+    <sceneName>Deepnest_East_08</sceneName>
+    <objectName>Geo Rock Outskirts</objectName>
+    <replace>true</replace>
+    <itemLogic>Top_Kingdom's_Edge + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Top_Kingdom's_Edge + (CLAW | WINGS)</areaLogic>
+    <roomLogic>(Deepnest_East_08[top1] | Deepnest_East_08[right1]) + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>44</geo>
+    <nameKey>RANDOMIZER_NAME_44GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Kingdom's_Edge_Above_420_Geo_Rock">
+    <sceneName>Deepnest_East_17</sceneName>
+    <objectName>Geo Rock Outskirts</objectName>
+    <replace>true</replace>
+    <itemLogic>Oro_Bench + (CLAW | WINGS) + QUAKE + (DASH | SPIKETUNNELS)</itemLogic>
+    <areaLogic>Oro_Bench + (CLAW | WINGS) + QUAKE + (DASH | SPIKETUNNELS)</areaLogic>
+    <roomLogic>Deepnest_East_17[left1] + QUAKE</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>44</geo>
+    <nameKey>RANDOMIZER_NAME_44GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Kingdom's_Edge_420_Geo_Rock">
+    <sceneName>Deepnest_East_17</sceneName>
+    <objectName>Giant Geo Egg</objectName>
+    <replace>true</replace>
+    <itemLogic>Oro_Bench + (CLAW | WINGS) + QUAKE + (DASH | SPIKETUNNELS)</itemLogic>
+    <areaLogic>Oro_Bench + (CLAW | WINGS) + QUAKE + (DASH | SPIKETUNNELS)</areaLogic>
+    <roomLogic>Deepnest_East_17[left1] + QUAKE</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>420</geo>
+    <nameKey>RANDOMIZER_NAME_420GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Beast's_Den_Above_Trilobite">
+    <sceneName>Deepnest_Spider_Town</sceneName>
+    <objectName>Geo Rock Deepnest (5)</objectName>
+    <replace>true</replace>
+    <itemLogic>Beast's_Den + (CLAW | (WINGS + SPICYSKIPS + SHADESKIPS))</itemLogic>
+    <areaLogic>Beast's_Den + CLAW</areaLogic>
+    <roomLogic>Deepnest_Spider_Town[left1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Beasts_Den</areaName>
+  </item>
+  <item name="Geo_Rock-Beast's_Den_Above_Trilobite_Dupe">
+    <sceneName>Deepnest_Spider_Town</sceneName>
+    <objectName>Geo Rock Deepnest (6)</objectName>
+    <replace>true</replace>
+    <itemLogic>Beast's_Den + (CLAW | (WINGS + SPICYSKIPS + SHADESKIPS))</itemLogic>
+    <areaLogic>Beast's_Den + CLAW</areaLogic>
+    <roomLogic>Deepnest_Spider_Town[left1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Beasts_Den</areaName>
+  </item>
+  <item name="Geo_Rock-Beast's_Den_Below_Herrah">
+    <sceneName>Deepnest_Spider_Town</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Beast's_Den + (CLAW | (WINGS + SPICYSKIPS + SHADESKIPS))</itemLogic>
+    <areaLogic>Beast's_Den + CLAW</areaLogic>
+    <roomLogic>Deepnest_Spider_Town[left1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Beasts_Den</areaName>
+  </item>
+  <item name="Geo_Rock-Beast's_Den_Below_Egg">
+    <sceneName>Deepnest_Spider_Town</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Beast's_Den + (CLAW | (WINGS + SPICYSKIPS + SHADESKIPS))</itemLogic>
+    <areaLogic>Beast's_Den + CLAW</areaLogic>
+    <roomLogic>Deepnest_Spider_Town[left1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Beasts_Den</areaName>
+  </item>
+  <item name="Geo_Rock-Beast's_Den_Below_Egg_Dupe">
+    <sceneName>Deepnest_Spider_Town</sceneName>
+    <objectName>Geo Rock Deepnest (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Beast's_Den + (CLAW | (WINGS + SPICYSKIPS + SHADESKIPS))</itemLogic>
+    <areaLogic>Beast's_Den + CLAW</areaLogic>
+    <roomLogic>Deepnest_Spider_Town[left1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Beasts_Den</areaName>
+  </item>
+  <item name="Geo_Rock-Beast's_Den_Bottom">
+    <sceneName>Deepnest_Spider_Town</sceneName>
+    <objectName>Geo Rock Deepnest (3)</objectName>
+    <replace>true</replace>
+    <itemLogic>Beast's_Den</itemLogic>
+    <areaLogic>Beast's_Den</areaLogic>
+    <roomLogic>Deepnest_Spider_Town[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Beasts_Den</areaName>
+  </item>
+  <item name="Geo_Rock-Beast's_Den_Bottom_Dupe">
+    <sceneName>Deepnest_Spider_Town</sceneName>
+    <objectName>Geo Rock Deepnest (4)</objectName>
+    <replace>true</replace>
+    <itemLogic>Beast's_Den</itemLogic>
+    <areaLogic>Beast's_Den</areaLogic>
+    <roomLogic>Deepnest_Spider_Town[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Beasts_Den</areaName>
+  </item>
+  <item name="Geo_Rock-Beast's_Den_After_Herrah">
+    <sceneName>Deepnest_Spider_Town</sceneName>
+    <objectName>Geo Rock Deepnest (7)</objectName>
+    <replace>true</replace>
+    <itemLogic>Beast's_Den + CLAW</itemLogic>
+    <areaLogic>Beast's_Den + CLAW</areaLogic>
+    <roomLogic>Deepnest_Spider_Town[left1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Beasts_Den</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Entrance">
+    <sceneName>Fungus1_01</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_01[left1] | Fungus1_01[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Waterfall">
+    <sceneName>Fungus1_01b</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_01b[left1] | Fungus1_01b[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Below_Skip_Squit">
+    <sceneName>Fungus1_02</sceneName>
+    <objectName>Geo Rock Green Path 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_02[left1] | Fungus1_02[right1] | Fungus1_02[right2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Skip_Squit">
+    <sceneName>Fungus1_02</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_02[left1] | Fungus1_02[right1] | Fungus1_02[right2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Second_Skip_Fool_Eater">
+    <sceneName>Fungus1_03</sceneName>
+    <objectName>Geo Rock Green Path 01 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_03[left1] | Fungus1_03[right1] | Fungus1_03[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Second_Skip_Fool_Eater_Dupe">
+    <sceneName>Fungus1_03</sceneName>
+    <objectName>Geo Rock Green Path 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_03[left1] | Fungus1_03[right1] | Fungus1_03[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Second_Skip_Lower">
+    <sceneName>Fungus1_03</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_03[left1] | Fungus1_03[right1] | Fungus1_03[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Below_Hornet">
+    <sceneName>Fungus1_04</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath + (DASH | WINGS | SUPERDASH | ACID | AIRSTALL) + (DASH | WINGS | CLAW | AIRSTALL)</itemLogic>
+    <areaLogic>Greenpath + (DASH | WINGS | SUPERDASH | ACID | AIRSTALL) + (DASH | WINGS | CLAW | AIRSTALL)</areaLogic>
+    <roomLogic>((Fungus1_04[right1] + (DASH | WINGS | SUPERDASH | ACID | AIRSTALL)) | (Fungus1_04[left1] + (DASH | WINGS | (SUPERDASH + CLAW) | ACID | AIRSTALL))) + (DASH | WINGS | CLAW | AIRSTALL)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Above_Thorns">
+    <sceneName>Fungus1_05</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_05[top1] | Fungus1_05[right1] | Fungus1_05[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Hunter's_Journal">
+    <sceneName>Fungus1_07</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_07[top1] | Fungus1_07[left1] | Fungus1_07[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Acid_Bridge">
+    <sceneName>Fungus1_10</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath + (DASH | CLAW | WINGS | SHADESKIPS | AIRSTALL)</itemLogic>
+    <areaLogic>Greenpath + (DASH | CLAW | WINGS | SHADESKIPS | AIRSTALL)</areaLogic>
+    <roomLogic>(Fungus1_10[left1] | Fungus1_10[right1] | Fungus1_10[top1]) + (DASH | CLAW | WINGS | AIRSTALL)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_After_MMC_Hidden">
+    <sceneName>Fungus1_12</sceneName>
+    <objectName>Geo Rock Green Path 02</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</itemLogic>
+    <areaLogic>Greenpath + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</areaLogic>
+    <roomLogic>(Fungus1_12[left1] | Fungus1_12[right1]) + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_After_MMC">
+    <sceneName>Fungus1_12</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</itemLogic>
+    <areaLogic>Greenpath + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</areaLogic>
+    <roomLogic>(Fungus1_12[left1] | Fungus1_12[right1]) + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_After_MMC_Dupe">
+    <sceneName>Fungus1_12</sceneName>
+    <objectName>Geo Rock Green Path 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</itemLogic>
+    <areaLogic>Greenpath + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</areaLogic>
+    <roomLogic>(Fungus1_12[left1] | Fungus1_12[right1]) + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Obbles_Fool_Eater">
+    <sceneName>Fungus1_19</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_19[left1] | Fungus1_19[right1] | Fungus1_19[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Moss_Knights">
+    <sceneName>Fungus1_21</sceneName>
+    <objectName>Geo Rock Green Path 02</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_21[left1] | Fungus1_21[top1] | (Fungus1_21[right1] + (CLAW | WINGS | DASH)) | Fungus1_21[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Moss_Knights_Dupe_1">
+    <sceneName>Fungus1_21</sceneName>
+    <objectName>Geo Rock Green Path 02 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_21[left1] | Fungus1_21[top1] | (Fungus1_21[right1] + (CLAW | WINGS | DASH)) | Fungus1_21[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Moss_Knights_Dupe_2">
+    <sceneName>Fungus1_21</sceneName>
+    <objectName>Geo Rock Green Path 02 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_21[left1] | Fungus1_21[top1] | (Fungus1_21[right1] + (CLAW | WINGS | DASH)) | Fungus1_21[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Below_Stag">
+    <sceneName>Fungus1_22</sceneName>
+    <objectName>Geo Rock Green Path 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_22[top1] | Fungus1_22[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Below_Stag_Fool_Eater">
+    <sceneName>Fungus1_22</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_22[top1] | Fungus1_22[left1] | Fungus1_22[bot1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Baldur_Shell_Top_Left">
+    <sceneName>Fungus1_28</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Howling_Cliffs | Greenpath</itemLogic>
+    <areaLogic>Howling_Cliffs | Fungus1_28[left2]</areaLogic>
+    <roomLogic>Fungus1_28[left1] | Fungus1_28[left2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Geo_Rock-Baldur_Shell_Alcove">
+    <sceneName>Fungus1_28</sceneName>
+    <objectName>Geo Rock 1 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Howling_Cliffs | Greenpath</itemLogic>
+    <areaLogic>Howling_Cliffs | Fungus1_28[left2]</areaLogic>
+    <roomLogic>Fungus1_28[left1] | Fungus1_28[left2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Howling_Cliffs</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_MMC">
+    <sceneName>Fungus1_29</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</itemLogic>
+    <areaLogic>Greenpath + (DASH | CLAW | WINGS | SUPERDASH | AIRSTALL | SHADESKIPS)</areaLogic>
+    <roomLogic>Fungus1_29[left1] | Fungus1_29[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Below_Toll">
+    <sceneName>Fungus1_31</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_31[top1] | Fungus1_31[bot1] | Fungus1_31[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Toll_Hidden">
+    <sceneName>Fungus1_31</sceneName>
+    <objectName>Geo Rock 1 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_31[top1] | Fungus1_31[bot1] | Fungus1_31[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Greenpath_Toll_Hidden_Dupe">
+    <sceneName>Fungus1_31</sceneName>
+    <objectName>Geo Rock 2 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Greenpath</itemLogic>
+    <areaLogic>Greenpath</areaLogic>
+    <roomLogic>Fungus1_31[top1] | Fungus1_31[bot1] | Fungus1_31[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Greenpath</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Below_Shrumal_Ogres">
+    <sceneName>Fungus2_04</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes</itemLogic>
+    <areaLogic>Fungal_Wastes</areaLogic>
+    <roomLogic>Fungus2_04</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Above_Cloth">
+    <sceneName>Fungus2_08</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes</itemLogic>
+    <areaLogic>Fungal_Wastes</areaLogic>
+    <roomLogic>Fungus2_08[left1] | Fungus2_08[left2] | Fungus2_08[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_After_Cloth">
+    <sceneName>Fungus2_10</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes + (DASH | CLAW | WINGS)</itemLogic>
+    <areaLogic>Fungal_Wastes + (DASH | CLAW | WINGS)</areaLogic>
+    <roomLogic>(Fungus2_10[right1] | Fungus2_10[right2] | Fungus2_10[bot1]) + (DASH | CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Below_Pilgrim's_Way">
+    <sceneName>Fungus2_11</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes</itemLogic>
+    <areaLogic>Fungal_Wastes</areaLogic>
+    <roomLogic>Fungus2_11[top1] | Fungus2_11[left1] | Fungus2_11[left2] | Fungus2_11[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Below_Pilgrim's_Way_Dupe">
+    <sceneName>Fungus2_11</sceneName>
+    <objectName>Geo Rock Fung 02</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes</itemLogic>
+    <areaLogic>Fungal_Wastes</areaLogic>
+    <roomLogic>Fungus2_11[top1] | Fungus2_11[left1] | Fungus2_11[left2] | Fungus2_11[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>17</geo>
+    <nameKey>RANDOMIZER_NAME_17GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Mantis_Outskirts_Guarded">
+    <sceneName>Fungus2_13</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Mantis_Outskirts</itemLogic>
+    <areaLogic>Mantis_Outskirts</areaLogic>
+    <roomLogic>Fungus2_13[top1] | Fungus2_13[left2] | (Fungus2_13[left3] + (DASH | ACID | WINGS | (CLAW + SUPERDASH)))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Mantis_Outskirts_Guarded_Dupe">
+    <sceneName>Fungus2_13</sceneName>
+    <objectName>Geo Rock Fung 02</objectName>
+    <replace>true</replace>
+    <itemLogic>Mantis_Outskirts</itemLogic>
+    <areaLogic>Mantis_Outskirts</areaLogic>
+    <roomLogic>Fungus2_13[top1] | Fungus2_13[left2] | (Fungus2_13[left3] + (DASH | ACID | WINGS | (CLAW + SUPERDASH)))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>17</geo>
+    <nameKey>RANDOMIZER_NAME_17GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Mantis_Outskirts_Alcove">
+    <sceneName>Fungus2_13</sceneName>
+    <objectName>Geo Rock Fung 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Mantis_Outskirts</itemLogic>
+    <areaLogic>Mantis_Outskirts</areaLogic>
+    <roomLogic>Fungus2_13[top1] | Fungus2_13[left2] | (Fungus2_13[left3] + (DASH | ACID | WINGS | (CLAW + SUPERDASH)))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Mantis_Village_After_Lever">
+    <sceneName>Fungus2_14</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Mantis_Village + (CLAW | WINGS | MILDSKIPS)</itemLogic>
+    <areaLogic>Mantis_Village + (CLAW | WINGS | MILDSKIPS)</areaLogic>
+    <roomLogic>(Fungus2_14[top1] | Fungus2_14[bot3] | Fungus2_14[right1]) + (CLAW | WINGS | MILDSKIPS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Mantis_Village_Above_Claw">
+    <sceneName>Fungus2_14</sceneName>
+    <objectName>Geo Rock 2 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Mantis_Village + (SPICYSKIPS | WINGS | (CLAW + (SUPERDASH | MILDSKIPS)))</itemLogic>
+    <areaLogic>Mantis_Village + (SPICYSKIPS | WINGS | (CLAW + (SUPERDASH | MILDSKIPS)))</areaLogic>
+    <roomLogic>((Fungus2_14[top1] | Fungus2_14[bot3] | (Fungus2_14[right1] + (CLAW | WINGS | DASH | SUPERDASH | ACID))) + (SPICYSKIPS | WINGS | (CLAW + (SUPERDASH | MILDSKIPS))))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Mantis_Village_Above_Claw_Dupe">
+    <sceneName>Fungus2_14</sceneName>
+    <objectName>Geo Rock 2 (3)</objectName>
+    <replace>true</replace>
+    <itemLogic>Mantis_Village + (SPICYSKIPS | WINGS | (CLAW + (SUPERDASH | MILDSKIPS)))</itemLogic>
+    <areaLogic>Mantis_Village + (SPICYSKIPS | WINGS | (CLAW + (SUPERDASH | MILDSKIPS)))</areaLogic>
+    <roomLogic>((Fungus2_14[top1] | Fungus2_14[bot3] | (Fungus2_14[right1] + (CLAW | WINGS | DASH | SUPERDASH | ACID))) + (SPICYSKIPS | WINGS | (CLAW + (SUPERDASH | MILDSKIPS))))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Mantis_Village_Below_Lore">
+    <sceneName>Fungus2_14</sceneName>
+    <objectName>Geo Rock 2 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes + (WINGS | CLAW | SPICYSKIPS)</itemLogic>
+    <areaLogic>Fungus2_14[top1] | (Mantis_Village + (CLAW | (WINGS + MILDSKIPS)))</areaLogic>
+    <roomLogic>Fungus2_14[top1] | ((Fungus2_14[bot3] | Fungus2_14[right1]) + (CLAW | (WINGS + MILDSKIPS)))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Mantis_Village_Above_Lever">
+    <sceneName>Fungus2_14</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes + (WINGS | CLAW)</itemLogic>
+    <areaLogic>Mantis_Village + (CLAW | (WINGS + (MILDSKIPS | Fungus2_14[top1])))</areaLogic>
+    <roomLogic>(Fungus2_14[top1] | Fungus2_14[bot3] | Fungus2_14[right1]) + (CLAW | (WINGS + (MILDSKIPS | Fungus2_14[top1])))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Above_Mantis_Lords_1">
+    <sceneName>Fungus2_15</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Mantis_Village + (WINGS | CLAW)</itemLogic>
+    <areaLogic>Mantis_Village + (WINGS | CLAW)</areaLogic>
+    <roomLogic>Fungus2_15 + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Above_Mantis_Lords_2">
+    <sceneName>Fungus2_15</sceneName>
+    <objectName>Geo Rock 1 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Mantis_Village + (WINGS | CLAW)</itemLogic>
+    <areaLogic>Mantis_Village + (WINGS | CLAW)</areaLogic>
+    <roomLogic>Fungus2_15 + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Mantis_Village</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_After_Bouncy_Grub">
+    <sceneName>Fungus2_18</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes</itemLogic>
+    <areaLogic>Fungal_Wastes</areaLogic>
+    <roomLogic>Fungus2_18[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_After_Bouncy_Grub_Dupe">
+    <sceneName>Fungus2_18</sceneName>
+    <objectName>Geo Rock Fung 02 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes</itemLogic>
+    <areaLogic>Fungal_Wastes</areaLogic>
+    <roomLogic>Fungus2_18[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>17</geo>
+    <nameKey>RANDOMIZER_NAME_17GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Bouncy_Grub_Lever">
+    <sceneName>Fungus2_18</sceneName>
+    <objectName>Geo Rock Fung 02 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes</itemLogic>
+    <areaLogic>Fungal_Wastes</areaLogic>
+    <roomLogic>Fungus2_18[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>17</geo>
+    <nameKey>RANDOMIZER_NAME_17GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_After_Cornifer">
+    <sceneName>Fungus2_18</sceneName>
+    <objectName>Geo Rock Fung 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Wastes</itemLogic>
+    <areaLogic>Fungal_Wastes</areaLogic>
+    <roomLogic>Fungus2_18[top1] | Fungus2_18[right1] | (Fungus2_18[bot1] + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Above_City_Entrance">
+    <sceneName>Fungus2_21</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Left_City + CLAW</itemLogic>
+    <areaLogic>Fungus2_21[right1] + CLAW</areaLogic>
+    <roomLogic>Fungus2_21[right1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Wastes</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_By_Mantis_Lords_1">
+    <sceneName>Fungus2_25</sceneName>
+    <objectName>Geo Rock Deepnest (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Right_Deepnest + (WINGS | CLAW)</itemLogic>
+    <areaLogic>Far_Right_Deepnest + (WINGS | CLAW)</areaLogic>
+    <roomLogic>Fungus2_25[top1] | ((Fungus2_25[top2] | Fungus2_25[right1]) + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Deepnest_By_Mantis_Lords_2">
+    <sceneName>Fungus2_25</sceneName>
+    <objectName>Geo Rock Deepnest</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Right_Deepnest + (WINGS | CLAW)</itemLogic>
+    <areaLogic>Far_Right_Deepnest + (WINGS | CLAW)</areaLogic>
+    <roomLogic>Fungus2_25[top1] | ((Fungus2_25[top2] | Fungus2_25[right1]) + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Depenest_Lower_Cornifer">
+    <sceneName>Fungus2_25</sceneName>
+    <objectName>Geo Rock Deepnest (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Far_Right_Deepnest + CLAW</itemLogic>
+    <areaLogic>Far_Right_Deepnest + CLAW</areaLogic>
+    <roomLogic>(Fungus2_25[top1] | Fungus2_25[top2] | Fungus2_25[right1]) + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Deepnest</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Core_Entrance">
+    <sceneName>Fungus2_29</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Core</itemLogic>
+    <areaLogic>Fungal_Core</areaLogic>
+    <roomLogic>(Fungus2_29[right1] + CLAW + WINGS) | (Fungus2_29[bot1] + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Core</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Core_Hidden">
+    <sceneName>Fungus2_30</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Core</itemLogic>
+    <areaLogic>Fungal_Core</areaLogic>
+    <roomLogic>Fungus2_30[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Core</areaName>
+  </item>
+  <item name="Geo_Rock-Fungal_Core_Above_Elder">
+    <sceneName>Fungus2_30</sceneName>
+    <objectName>Geo Rock Fung 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Fungal_Core</itemLogic>
+    <areaLogic>Fungal_Core</areaLogic>
+    <roomLogic>Fungus2_30[top1] + WINGS</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fungal_Core</areaName>
+  </item>
+  <item name="Geo_Rock-Queen's_Gardens_Acid_Entrance">
+    <sceneName>Fungus3_03</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Left_Fog_Canyon + (CLAW | (WINGS + SHADESKIPS))</itemLogic>
+    <areaLogic>Left_Fog_Canyon + CLAW</areaLogic>
+    <roomLogic>Fungus3_03[right1] + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fog_Canyon</areaName>
+  </item>
+  <item name="Geo_Rock-Queen's_Gardens_Below_Stag">
+    <sceneName>Fungus3_10</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Top_Left_Queen's_Gardens</itemLogic>
+    <areaLogic>Top_Left_Queen's_Gardens</areaLogic>
+    <roomLogic>Fungus3_10[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Queens_Gardens</areaName>
+  </item>
+  <item name="Geo_Rock-Fog_Canyon_East">
+    <sceneName>Fungus3_26</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Right_Fog_Canyon</itemLogic>
+    <areaLogic>Right_Fog_Canyon</areaLogic>
+    <roomLogic>Fungus3_26</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Fog_Canyon</areaName>
+  </item>
+  <item name="Geo_Rock-Love_Key">
+    <sceneName>Fungus3_39</sceneName>
+    <objectName>Geo Rock Green Path 01 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Bottom_Right_Queen's_Gardens</itemLogic>
+    <areaLogic>Bottom_Right_Queen's_Gardens</areaLogic>
+    <roomLogic>Fungus3_39[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Queens_Gardens</areaName>
+  </item>
+  <item name="Geo_Rock-Love_Key_Dupe">
+    <sceneName>Fungus3_39</sceneName>
+    <objectName>Geo Rock Green Path 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Bottom_Right_Queen's_Gardens</itemLogic>
+    <areaLogic>Bottom_Right_Queen's_Gardens</areaLogic>
+    <roomLogic>Fungus3_39[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>26</geo>
+    <nameKey>RANDOMIZER_NAME_26GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Queens_Gardens</areaName>
+  </item>
+  <item name="Geo_Rock-Queen's_Gardens_Above_Marmu">
+    <sceneName>Fungus3_48</sceneName>
+    <objectName>Geo Rock Green Path 02</objectName>
+    <replace>true</replace>
+    <itemLogic>Top_Left_Queen's_Gardens</itemLogic>
+    <areaLogic>Top_Left_Queen's_Gardens</areaLogic>
+    <roomLogic>(Fungus3_48[bot1] + (CLAW | WINGS)) | Fungus3_48[right2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Queens_Gardens</areaName>
+  </item>
+  <item name="Geo_Rock-Pale_Lurker">
+    <sceneName>GG_Lurker</sceneName>
+    <objectName>Geo Rock Outskirts</objectName>
+    <replace>true</replace>
+    <itemLogic>Pale_Lurker_Area + CLAW + (WINGS | SUPERDASH)</itemLogic>
+    <areaLogic>Pale_Lurker_Area + CLAW + (WINGS | SUPERDASH)</areaLogic>
+    <roomLogic>GG_Lurker[left1] + CLAW + (WINGS | SUPERDASH)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>44</geo>
+    <nameKey>RANDOMIZER_NAME_44GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kingdoms_Edge</areaName>
+  </item>
+  <item name="Geo_Rock-Godhome_Pipeway">
+    <sceneName>GG_Pipeway</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Lower_Left_Waterways + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Lower_Left_Waterways + (CLAW | WINGS)</areaLogic>
+    <roomLogic>(GG_Pipeway[left1] | GG_Pipeway[right1]) + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_Entrance">
+    <sceneName>Hive_01</sceneName>
+    <objectName>Geo Rock Hive</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive</itemLogic>
+    <areaLogic>Hive_01[left1] | Hive_01[right1]</areaLogic>
+    <roomLogic>Hive_01[left1] | Hive_01[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_Outside_Bench">
+    <sceneName>Hive_02</sceneName>
+    <objectName>Geo Rock Hive</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</areaLogic>
+    <roomLogic>Hive_02[left2] | ((Hive_02[left1] | Hive_02[left3]) + (WINGS | CLAW))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_Below_Root">
+    <sceneName>Hive_02</sceneName>
+    <objectName>Geo Rock Hive (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</areaLogic>
+    <roomLogic>Hive_02[left1] | ((Hive_02[left2] | Hive_02[left3]) + (WINGS | CLAW | MILDSKIPS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_After_Root">
+    <sceneName>Hive_02</sceneName>
+    <objectName>Geo Rock Hive (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</areaLogic>
+    <roomLogic>Hive_02[left1] | ((Hive_02[left2] | Hive_02[left3]) + ((CLAW + DASH) | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_Below_Stash">
+    <sceneName>Hive_03</sceneName>
+    <objectName>Geo Rock Hive (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</areaLogic>
+    <roomLogic>Hive_03[bot1] | Hive_03[right1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_Stash">
+    <sceneName>Hive_03</sceneName>
+    <objectName>Geo Rock Hive (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</areaLogic>
+    <roomLogic>Hive_03[right1] | (Hive_03[bot1] + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_Stash_Dupe">
+    <sceneName>Hive_03</sceneName>
+    <objectName>Geo Rock Hive</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</areaLogic>
+    <roomLogic>Hive_03[right1] | (Hive_03[bot1] + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_Below_Grub">
+    <sceneName>Hive_04</sceneName>
+    <objectName>Geo Rock Hive (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</areaLogic>
+    <roomLogic>Hive_04[left1] | (Hive_04[right1] + ((CLAW + DASH) | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Hive_Above_Mask">
+    <sceneName>Hive_04</sceneName>
+    <objectName>Geo Rock Hive</objectName>
+    <replace>true</replace>
+    <itemLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</itemLogic>
+    <areaLogic>Hive + ((CLAW + WINGS) | (MILDSKIPS + (CLAW | WINGS)))</areaLogic>
+    <roomLogic>Hive_04[left1] | (Hive_04[right1] + ((CLAW + DASH) | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>56</geo>
+    <nameKey>RANDOMIZER_NAME_56GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hive</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Lower_Middle">
+    <sceneName>Mines_02</sceneName>
+    <objectName>Geo Rock Mine (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Crystal_Peak + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Crystal_Peak + (CLAW | WINGS)</areaLogic>
+    <roomLogic>Mines_02</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Lower_Conveyer_1">
+    <sceneName>Mines_02</sceneName>
+    <objectName>Geo Rock Mine</objectName>
+    <replace>true</replace>
+    <itemLogic>Crystal_Peak</itemLogic>
+    <areaLogic>Crystal_Peak</areaLogic>
+    <roomLogic>Mines_02</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Lower_Conveyer_2">
+    <sceneName>Mines_02</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Crystal_Peak</itemLogic>
+    <areaLogic>Crystal_Peak</areaLogic>
+    <roomLogic>Mines_02</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Before_Dark_Room">
+    <sceneName>Mines_04</sceneName>
+    <objectName>Geo Rock Mine</objectName>
+    <replace>true</replace>
+    <itemLogic>Crystal_Peak</itemLogic>
+    <areaLogic>Crystal_Peak</areaLogic>
+    <roomLogic>Mines_04</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Before_Dark_Room_Dupe">
+    <sceneName>Mines_04</sceneName>
+    <objectName>Geo Rock Mine (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Crystal_Peak</itemLogic>
+    <areaLogic>Crystal_Peak</areaLogic>
+    <roomLogic>Mines_04</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Above_Spike_Grub">
+    <sceneName>Mines_05</sceneName>
+    <objectName>Geo Rock Mine</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak</itemLogic>
+    <areaLogic>Upper_Crystal_Peak</areaLogic>
+    <roomLogic>Mines_05</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Mimic_Grub">
+    <sceneName>Mines_16</sceneName>
+    <objectName>Geo Rock Mine</objectName>
+    <replace>true</replace>
+    <itemLogic>(Upper_Crystal_Peak + CLAW + SUPERDASH) | (King's_Pass + WINGS + SUPERDASH)</itemLogic>
+    <areaLogic>(Upper_Crystal_Peak + CLAW + SUPERDASH) | (Mines_10[left1] + ((CLAW + SUPERDASH) | (WINGS + (DASH | SUPERDASH))))</areaLogic>
+    <roomLogic>Mines_16[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Dive_Egg">
+    <sceneName>Mines_20</sceneName>
+    <objectName>Geo Rock Mine (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + QUAKE</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + QUAKE</areaLogic>
+    <roomLogic>Mines_20 + QUAKE</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Dive_Egg_Dupe">
+    <sceneName>Mines_20</sceneName>
+    <objectName>Geo Rock Mine (3)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + QUAKE</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + QUAKE</areaLogic>
+    <roomLogic>Mines_20 + QUAKE</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Conga_Line">
+    <sceneName>Mines_20</sceneName>
+    <objectName>Geo Rock Mine (4)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak</itemLogic>
+    <areaLogic>Upper_Crystal_Peak</areaLogic>
+    <roomLogic>Mines_20</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Hallownest_Crown_Dive">
+    <sceneName>Mines_25</sceneName>
+    <objectName>Geo Rock Mine</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + (WINGS | (DASH + MILDSKIPS)) + (CLAW | SPICYSKIPS) + QUAKE</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS) + QUAKE</areaLogic>
+    <roomLogic>((Mines_25[left1] + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS)) | Mines_25[top1]) + QUAKE</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hallownests_Crown</areaName>
+  </item>
+  <item name="Geo_Rock-Hallownest_Crown_Dive_Dupe">
+    <sceneName>Mines_25</sceneName>
+    <objectName>Geo Rock Mine (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + (WINGS | (DASH + MILDSKIPS)) + (CLAW | SPICYSKIPS) + QUAKE</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS) + QUAKE</areaLogic>
+    <roomLogic>((Mines_25[left1] + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS)) | Mines_25[top1]) + QUAKE</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hallownests_Crown</areaName>
+  </item>
+  <item name="Geo_Rock-Hallownest_Crown_Hidden">
+    <sceneName>Mines_25</sceneName>
+    <objectName>Geo Rock Mine (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + (WINGS | (DASH + MILDSKIPS)) + (CLAW | SPICYSKIPS)</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS)</areaLogic>
+    <roomLogic>(Mines_25[left1] + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS)) | Mines_25[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hallownests_Crown</areaName>
+  </item>
+  <item name="Geo_Rock-Hallownest_Crown_Hidden_Dupe_1">
+    <sceneName>Mines_25</sceneName>
+    <objectName>Geo Rock Mine (3)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + (WINGS | (DASH + MILDSKIPS)) + (CLAW | SPICYSKIPS)</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS)</areaLogic>
+    <roomLogic>(Mines_25[left1] + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS)) | Mines_25[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hallownests_Crown</areaName>
+  </item>
+  <item name="Geo_Rock-Hallownest_Crown_Hidden_Dupe_2">
+    <sceneName>Mines_25</sceneName>
+    <objectName>Geo Rock Mine (4)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + (WINGS | (DASH + MILDSKIPS)) + (CLAW | SPICYSKIPS)</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS)</areaLogic>
+    <roomLogic>(Mines_25[left1] + (WINGS | MILDSKIPS) + (CLAW | SPICYSKIPS)) | Mines_25[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Hallownests_Crown</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Before_Crystal_Heart">
+    <sceneName>Mines_31</sceneName>
+    <objectName>Geo Rock Mine</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak</itemLogic>
+    <areaLogic>Upper_Crystal_Peak</areaLogic>
+    <roomLogic>Mines_31[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Entrance">
+    <sceneName>Mines_33</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>(Crossroads | Crystal_Peak) + LANTERN</itemLogic>
+    <areaLogic>(Mines_33[left1] | Mines_33[right1]) + LANTERN</areaLogic>
+    <roomLogic>(Mines_33[left1] | Mines_33[right1]) + LANTERN</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Entrance_Dupe_1">
+    <sceneName>Mines_33</sceneName>
+    <objectName>Geo Rock 2 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>(Crossroads | Crystal_Peak) + LANTERN</itemLogic>
+    <areaLogic>(Mines_33[left1] | Mines_33[right1]) + LANTERN</areaLogic>
+    <roomLogic>(Mines_33[left1] | Mines_33[right1]) + LANTERN</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Entrance_Dupe_2">
+    <sceneName>Mines_33</sceneName>
+    <objectName>Geo Rock 2 (2)</objectName>
+    <replace>true</replace>
+    <itemLogic>(Crossroads | Crystal_Peak) + LANTERN</itemLogic>
+    <areaLogic>(Mines_33[left1] | Mines_33[right1]) + LANTERN</areaLogic>
+    <roomLogic>(Mines_33[left1] | Mines_33[right1]) + LANTERN</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Forgotten_Crossroads</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Above_Crushers_Lower">
+    <sceneName>Mines_37</sceneName>
+    <objectName>Geo Rock Mine</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + (CLAW | (WINGS + SHADESKIPS))</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + (CLAW | (WINGS + SHADESKIPS))</areaLogic>
+    <roomLogic>(Mines_37[top1] | Mines_37[bot1]) + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Crystal_Peak_Above_Crushers_Higher">
+    <sceneName>Mines_37</sceneName>
+    <objectName>Geo Rock Mine (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Crystal_Peak + CLAW</itemLogic>
+    <areaLogic>Upper_Crystal_Peak + CLAW</areaLogic>
+    <roomLogic>(Mines_37[top1] | Mines_37[bot1]) + CLAW</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>24</geo>
+    <nameKey>RANDOMIZER_NAME_24GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Crystal_Peak</areaName>
+  </item>
+  <item name="Geo_Rock-Resting_Grounds_Catacombs_Grub">
+    <sceneName>RestingGrounds_10</sceneName>
+    <objectName>Geo Rock Grave 02</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Resting_Grounds + (CLAW | WINGS) + QUAKE</itemLogic>
+    <areaLogic>Upper_Resting_Grounds + (CLAW | WINGS) + QUAKE</areaLogic>
+    <roomLogic>RestingGrounds_10[top1] + (CLAW | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>25</geo>
+    <nameKey>RANDOMIZER_NAME_25GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Resting_Grounds</areaName>
+  </item>
+  <item name="Geo_Rock-Resting_Grounds_Catacombs_Left_Dupe">
+    <sceneName>RestingGrounds_10</sceneName>
+    <objectName>Geo Rock Grave 02 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Resting_Grounds + QUAKE</itemLogic>
+    <areaLogic>Upper_Resting_Grounds + QUAKE</areaLogic>
+    <roomLogic>RestingGrounds_10[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>25</geo>
+    <nameKey>RANDOMIZER_NAME_25GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Resting_Grounds</areaName>
+  </item>
+  <item name="Geo_Rock-Resting_Grounds_Catacombs_Left">
+    <sceneName>RestingGrounds_10</sceneName>
+    <objectName>Geo Rock Grave 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Resting_Grounds + QUAKE</itemLogic>
+    <areaLogic>Upper_Resting_Grounds + QUAKE</areaLogic>
+    <roomLogic>RestingGrounds_10[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>25</geo>
+    <nameKey>RANDOMIZER_NAME_25GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Resting_Grounds</areaName>
+  </item>
+  <item name="Geo_Rock-Overgrown_Mound">
+    <sceneName>Room_Fungus_Shaman</sceneName>
+    <objectName>Geo Rock Green Path 02</objectName>
+    <replace>true</replace>
+    <itemLogic>Overgrown_Mound</itemLogic>
+    <areaLogic>Overgrown_Mound</areaLogic>
+    <roomLogic>Room_Fungus_Shaman[left1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Overgrown_Mound</areaName>
+  </item>
+  <item name="Geo_Rock-Fluke_Hermit_Dupe">
+    <sceneName>Room_GG_Shortcut</sceneName>
+    <objectName>Geo Rock Fung 02 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Junk_Pit + CLAW</itemLogic>
+    <areaLogic>Junk_Pit + CLAW + (DASH | WINGS | SUPERDASH | AIRSTALL)</areaLogic>
+    <roomLogic>Room_GG_Shortcut[top1] | (Room_GG_Shortcut[left1] + CLAW + (DASH | WINGS | SUPERDASH | MILDSKIPS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>17</geo>
+    <nameKey>RANDOMIZER_NAME_17GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Junk_Pit</areaName>
+  </item>
+  <item name="Geo_Rock-Fluke_Hermit">
+    <sceneName>Room_GG_Shortcut</sceneName>
+    <objectName>Geo Rock Fung 01</objectName>
+    <replace>true</replace>
+    <itemLogic>Junk_Pit + CLAW + (DASH | WINGS | SUPERDASH)</itemLogic>
+    <areaLogic>Junk_Pit + CLAW + (DASH | WINGS | SUPERDASH | AIRSTALL)</areaLogic>
+    <roomLogic>Room_GG_Shortcut[top1] | (Room_GG_Shortcut[left1] + CLAW + (DASH | WINGS | SUPERDASH | MILDSKIPS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>22</geo>
+    <nameKey>RANDOMIZER_NAME_22GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Junk_Pit</areaName>
+  </item>
+  <item name="Geo_Rock-Pleasure_House">
+    <sceneName>Ruins_Elevator</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Pleasure_House</itemLogic>
+    <areaLogic>Pleasure_House</areaLogic>
+    <roomLogic>Ruins_Elevator[left1] | Ruins_Elevator[left2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Pleasure_House</areaName>
+  </item>
+  <item name="Geo_Rock-City_of_Tears_Quirrel">
+    <sceneName>Ruins1_03</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Left_City</itemLogic>
+    <areaLogic>Left_City</areaLogic>
+    <roomLogic>Ruins1_03</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>City_of_Tears</areaName>
+  </item>
+  <item name="Geo_Rock-City_of_Tears_Lemm">
+    <sceneName>Ruins1_05b</sceneName>
+    <objectName>Geo Rock City 1 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Left_City</itemLogic>
+    <areaLogic>Left_City</areaLogic>
+    <roomLogic>Ruins1_05b</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>City_of_Tears</areaName>
+  </item>
+  <item name="Geo_Rock-City_of_Tears_Above_Lemm">
+    <sceneName>Ruins1_05c</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Left_City</itemLogic>
+    <areaLogic>Left_City</areaLogic>
+    <roomLogic>Ruins1_05c</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>City_of_Tears</areaName>
+  </item>
+  <item name="Geo_Rock-Soul_Sanctum">
+    <sceneName>Ruins1_32</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Soul_Sanctum + CLAW + QUAKE</itemLogic>
+    <areaLogic>Soul_Sanctum + CLAW + QUAKE</areaLogic>
+    <roomLogic>(Ruins1_32[right1] + CLAW + QUAKE) | (Ruins1_32[right2] + (CLAW | (WINGS + MILDSKIPS)) + QUAKE)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Soul_Sanctum</areaName>
+  </item>
+  <item name="Geo_Rock-Watcher's_Spire">
+    <sceneName>Ruins2_01</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Right_City + CLAW + (WINGS | MILDSKIPS) + (DASH | SUPERDASH | WINGS)</itemLogic>
+    <areaLogic>Right_City + CLAW + (WINGS | MILDSKIPS) + (DASH | SUPERDASH | WINGS)</areaLogic>
+    <roomLogic>(Ruins2_01[top1] | Ruins2_01[left2] | (Ruins2_01[bot1] + (CLAW | WINGS + MILDSKIPS))) + (DASH | SUPERDASH | WINGS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>City_of_Tears</areaName>
+  </item>
+  <item name="Geo_Rock-Above_King's_Station">
+    <sceneName>Ruins2_05</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_King's_Station</itemLogic>
+    <areaLogic>Upper_King's_Station</areaLogic>
+    <roomLogic>(Ruins2_05[bot1] + (CLAW | WINGS | MILDSKIPS)) | Ruins2_05[left1] | Ruins2_05[top1]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kings_Station</areaName>
+  </item>
+  <item name="Geo_Rock-King's_Station">
+    <sceneName>Ruins2_06</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Lower_King's_Station + (CLAW | (WINGS + (SHADESKIPS | MILDSKIPS)))</itemLogic>
+    <areaLogic>Lower_King's_Station + (CLAW | (WINGS + (SHADESKIPS | MILDSKIPS)))</areaLogic>
+    <roomLogic>Ruins2_06 + (CLAW | (WINGS + MILDSKIPS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kings_Station</areaName>
+  </item>
+  <item name="Geo_Rock-King's_Pass_Left">
+    <sceneName>Tutorial_01</sceneName>
+    <objectName>Geo Rock 3</objectName>
+    <replace>true</replace>
+    <itemLogic>King's_Pass</itemLogic>
+    <areaLogic>King's_Pass</areaLogic>
+    <roomLogic>Tutorial_01[right1] | Tutorial_01[top1] | Tutorial_01[top2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Geo_Rock-King's_Pass_Below_Fury">
+    <sceneName>Tutorial_01</sceneName>
+    <objectName>Geo Rock 1</objectName>
+    <replace>true</replace>
+    <itemLogic>King's_Pass</itemLogic>
+    <areaLogic>King's_Pass</areaLogic>
+    <roomLogic>Tutorial_01[right1] | Tutorial_01[top1] | Tutorial_01[top2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Geo_Rock-King's_Pass_Hidden">
+    <sceneName>Tutorial_01</sceneName>
+    <objectName>Geo Rock 2</objectName>
+    <replace>true</replace>
+    <itemLogic>King's_Pass</itemLogic>
+    <areaLogic>King's_Pass</areaLogic>
+    <roomLogic>Tutorial_01[right1] | Tutorial_01[top1] | Tutorial_01[top2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Geo_Rock-King's_Pass_Collapse">
+    <sceneName>Tutorial_01</sceneName>
+    <objectName>Geo Rock 4</objectName>
+    <replace>true</replace>
+    <itemLogic>King's_Pass</itemLogic>
+    <areaLogic>King's_Pass</areaLogic>
+    <roomLogic>Tutorial_01[right1] | Tutorial_01[top1] | Tutorial_01[top2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Geo_Rock-King's_Pass_Above_Fury">
+    <sceneName>Tutorial_01</sceneName>
+    <objectName>Geo Rock 5</objectName>
+    <replace>true</replace>
+    <itemLogic>King's_Pass</itemLogic>
+    <areaLogic>King's_Pass</areaLogic>
+    <roomLogic>Tutorial_01[right1] | Tutorial_01[top1] | Tutorial_01[top2]</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>15</geo>
+    <nameKey>RANDOMIZER_NAME_15GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Kings_Pass</areaName>
+  </item>
+  <item name="Geo_Rock-Waterways_Tuk">
+    <sceneName>Waterways_01</sceneName>
+    <objectName>Geo Rock City 1 (1)</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Left_Waterways + (CLAW | WINGS | MILDSKIPS)</itemLogic>
+    <areaLogic>Upper_Left_Waterways + (CLAW | WINGS | MILDSKIPS)</areaLogic>
+    <roomLogic>Waterways_01 + (Waterways_01[right1] | CLAW | WINGS | MILDSKIPS)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Geo_Rock-Waterways_Tuk_Alcove">
+    <sceneName>Waterways_01</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Upper_Left_Waterways</itemLogic>
+    <areaLogic>Upper_Left_Waterways</areaLogic>
+    <roomLogic>Waterways_01</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Geo_Rock-Waterways_Left">
+    <sceneName>Waterways_04b</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>(Upper_Left_Waterways | Far_Left_Waterways) + (CLAW | (WINGS + MILDSKIPS))</itemLogic>
+    <areaLogic>(Upper_Left_Waterways | Far_Left_Waterways) + (CLAW | (WINGS + MILDSKIPS))</areaLogic>
+    <roomLogic>Waterways_04b[left1] | Waterways_04b[right1] | (Waterways_04b[right2] + ((CLAW + (SUPERDASH | WINGS | SPICYSKIPS)) | (WINGS + MILDSKIPS)))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Geo_Rock-Waterways_East">
+    <sceneName>Waterways_07</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Right_Waterways + CLAW</itemLogic>
+    <areaLogic>Right_Waterways + CLAW</areaLogic>
+    <roomLogic>Waterways_07[top1] | Waterways_07[door1] | (Waterways_07 + CLAW)</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+  <item name="Geo_Rock-Waterways_Flukemarm">
+    <sceneName>Waterways_08</sceneName>
+    <objectName>Geo Rock City 1</objectName>
+    <replace>true</replace>
+    <itemLogic>Lower_Left_Waterways + (CLAW | WINGS)</itemLogic>
+    <areaLogic>Lower_Left_Waterways + (CLAW | WINGS)</areaLogic>
+    <roomLogic>Waterways_08[left2] | ((Waterways_08[left1] | Waterways_08[top1]) + (CLAW | WINGS))</roomLogic>
+    <type>Geo</type>
+    <action>SpawnGeo</action>
+    <pool>Rock</pool>
+    <geo>30</geo>
+    <nameKey>RANDOMIZER_NAME_30GEO</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_GEO</shopDescKey>
+    <shopSpriteKey>ShopIcons.Geo</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+  </item>
+</randomizer>
