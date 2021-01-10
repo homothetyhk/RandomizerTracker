@@ -56,7 +56,8 @@ namespace RandomizerTracker
                 ("Soul","Soul totems: "),
                 ("Cocoon", "Lifeblood cocoons: "),
                 ("Flame","Grimmkin flames: "),
-                ("PalaceSoul", "Palace Totems: ")
+                ("PalaceSoul", "Palace Totems: "),
+                ("Essence_Boss", "Boss essence: ")
             };
             randomizedPools = new Dictionary<string, bool>();
             foreach (var pair in pools)

@@ -95,6 +95,25 @@
     <shopSpriteKey>ShopIcons.WorldSense</shopSpriteKey>
     <areaName>Black_Egg_Temple</areaName>
   </item>
+  <item name="Dreamer">
+    <itemLogic></itemLogic>
+    <areaLogic></areaLogic>
+    <roomLogic></roomLogic>
+    <type>Big</type>
+    <action>Dreamer</action>
+    <pool>Fake</pool>
+    <bigSpriteKey>Prompts.Dreamer</bigSpriteKey>
+    <takeKey>GET_ITEM_INTRO1</takeKey>
+    <nameKey>RANDOMIZER_NAME_DREAMER</nameKey>
+    <buttonKey>RANDOMIZER_EMPTY</buttonKey>
+    <descOneKey>RANDOMIZER_EMPTY</descOneKey>
+    <descTwoKey>RANDOMIZER_EMPTY</descTwoKey>
+    <shopDescKey>RANDOMIZER_DESC_DREAMER</shopDescKey>
+    <shopSpriteKey>Prompts.Dreamer</shopSpriteKey>
+    <areaName>Inventory</areaName>
+    <majorItem>true</majorItem>
+    <progression>true</progression>
+  </item>
   <item name="Mothwing_Cloak">
     <boolName>hasDash</boolName>
     <sceneName>Fungus1_04</sceneName>
@@ -3759,145 +3778,212 @@
     <costType>whisperingRoot</costType>
   </item>
   <!--Essence Bosses-->
-  <item name="Elder_Hu">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-Elder_Hu">
+    <sceneName>Fungus2_32</sceneName>
+    <objectName>Ghost Warrior NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>Fungal_Wastes + DREAMNAIL + AERIALMINIBOSS</itemLogic>
     <areaLogic>Fungal_Wastes + DREAMNAIL + AERIALMINIBOSS</areaLogic>
     <roomLogic>Fungus2_32[left1] + DREAMNAIL + AERIALMINIBOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>100</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_100</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Fungal_Wastes</areaName>
+    <progression>true</progression>
   </item>
-  <item name="Xero">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-Xero">
+    <!-- Some dream warrior objects, somehow, report a different scene name than the one of the room they appear in. -->
+    <sceneName>RestingGrounds_02_boss</sceneName>
+    <objectName>Ghost Warrior NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>Upper_Resting_Grounds + DREAMNAIL + AERIALMINIBOSS</itemLogic>
     <areaLogic>Upper_Resting_Grounds + DREAMNAIL + AERIALMINIBOSS</areaLogic>
     <roomLogic>RestingGrounds_02 + DREAMNAIL + AERIALMINIBOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>100</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_100</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Resting_Grounds</areaName>
+    <progression>true</progression>
   </item>
-  <item name="Gorb">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-Gorb">
+    <sceneName>Cliffs_02_boss</sceneName>
+    <objectName>Ghost Warrior NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>Howling_Cliffs + DREAMNAIL + AERIALMINIBOSS</itemLogic>
     <areaLogic>Howling_Cliffs + DREAMNAIL + AERIALMINIBOSS</areaLogic>
     <roomLogic>Cliffs_02 + DREAMNAIL + AERIALMINIBOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>100</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_100</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Howling_Cliffs</areaName>
+    <progression>true</progression>
   </item>
-  <item name="Marmu">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-Marmu">
+    <sceneName>Fungus3_40_boss</sceneName>
+    <objectName>Ghost Warrior NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>Top_Left_Queen's_Gardens + DREAMNAIL + AERIALMINIBOSS</itemLogic>
     <areaLogic>Top_Left_Queen's_Gardens + DREAMNAIL + AERIALMINIBOSS</areaLogic>
     <roomLogic>(Fungus3_40[top1] | (Fungus3_40[right1] + (CLAW | WINGS | DASH))) + DREAMNAIL + AERIALMINIBOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>150</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_150</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Queens_Gardens</areaName>
+    <progression>true</progression>
   </item>
-  <item name="No_Eyes">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-No_Eyes">
+    <sceneName>Fungus1_35</sceneName>
+    <objectName>Ghost Warrior NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>Stone_Sanctuary + LANTERN + DREAMNAIL + AERIALMINIBOSS</itemLogic>
     <areaLogic>Stone_Sanctuary + LANTERN + DREAMNAIL + AERIALMINIBOSS</areaLogic>
     <roomLogic>Fungus1_35[left1] + LANTERN + DREAMNAIL + AERIALMINIBOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>200</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_200</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Stone_Sanctuary</areaName>
+    <progression>true</progression>
   </item>
-  <item name="Galien">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-Galien">
+    <sceneName>Deepnest_40</sceneName>
+    <objectName>Ghost Warrior NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>((Failed_Tramway + (LANTERN | DARKROOMS)) | (Dark_Deepnest + CLAW)) + DREAMNAIL + AERIALMINIBOSS</itemLogic>
     <areaLogic>((Deepnest_35[top1] + (LANTERN | DARKROOMS)) | (Dark_Deepnest + CLAW)) + DREAMNAIL + AERIALMINIBOSS</areaLogic>
     <roomLogic>Deepnest_40[right1] + DREAMNAIL + AERIALMINIBOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>200</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_200</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Deepnest</areaName>
+    <progression>true</progression>
   </item>
-  <item name="Markoth">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-Markoth">
+    <sceneName>Deepnest_East_10</sceneName>
+    <objectName>Ghost Warrior NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>Upper_Kingdom's_Edge + SHADOWDASH + DREAMNAIL + AERIALMINIBOSS</itemLogic>
     <areaLogic>Upper_Kingdom's_Edge + SHADOWDASH + DREAMNAIL + AERIALMINIBOSS</areaLogic>
     <roomLogic>Deepnest_East_10[left1] + DREAMNAIL + AERIALMINIBOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>250</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_250</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Kingdoms_Edge</areaName>
+    <progression>true</progression>
   </item>
-  <item name="Failed_Champion">
-    <sceneName></sceneName>
-    <objectName></objectName>
-    <itemLogic>Crossroads + CLAW + DREAMNAIL + BOSS</itemLogic>
-    <areaLogic>Crossroads + CLAW + DREAMNAIL + BOSS</areaLogic>
+  <item name="Boss_Essence-Failed_Champion">
+    <sceneName>Crossroads_10</sceneName>
+    <objectName>Ghost False Knight NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
+    <itemLogic>Crossroads + (CLAW | (WINGS + INFECTED)) + DREAMNAIL + BOSS</itemLogic>
+    <areaLogic>Crossroads + (CLAW | (WINGS + INFECTED)) + DREAMNAIL + BOSS</areaLogic>
     <roomLogic>Crossroads_10 + CLAW + DREAMNAIL + BOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>300</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_300</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Forgotten_Crossroads</areaName>
+    <progression>true</progression>
   </item>
-  <item name="Soul_Tyrant">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-Soul_Tyrant">
+    <sceneName>Ruins1_24_boss_defeated</sceneName>
+    <objectName>Ghost Mage Lord NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>Soul_Sanctum + (CLAW | WINGS) + DREAMNAIL + BOSS</itemLogic>
     <areaLogic>Soul_Sanctum + (CLAW | WINGS) + DREAMNAIL + BOSS</areaLogic>
     <roomLogic>Ruins1_24[right1] + DREAMNAIL + BOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>300</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_300</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Soul_Sanctum</areaName>
+    <progression>true</progression>
   </item>
-  <item name="Lost_Kin">
-    <sceneName></sceneName>
-    <objectName></objectName>
+  <item name="Boss_Essence-Lost_Kin">
+    <sceneName>Abyss_19</sceneName>
+    <objectName>Ghost Infected Knight NPC</objectName>
+    <fsmName>Conversation Control</fsmName>
     <itemLogic>Far_Left_Basin + (CLAW | (WINGS + MILDSKIPS)) + DREAMNAIL + BOSS</itemLogic>
     <areaLogic>Far_Left_Basin + (CLAW | (WINGS + MILDSKIPS)) + DREAMNAIL + BOSS</areaLogic>
     <roomLogic>Abyss_19[bot1] + (CLAW | WINGS) + DREAMNAIL + BOSS</roomLogic>
     <type>Trinket</type>
+    <action>Essence</action>
     <pool>Essence_Boss</pool>
     <geo>400</geo>
-    <nameKey>RANDOMIZER_NAME_ESSENCE</nameKey>
-    <shopDescKey>RANDOMIZER_NAME_ESSENCE</shopDescKey>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_400</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
     <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
-    <areaName></areaName>
+    <areaName>Ancient_Basin</areaName>
+    <progression>true</progression>
+  </item>
+  <item name="Boss_Essence-White_Defender">
+    <sceneName>Waterways_15</sceneName>
+    <objectName>Dung Defender_Sleep</objectName>
+    <fsmName>Award Orbs</fsmName>
+    <itemLogic>Central_Left_Waterways + (CLAW | (WINGS + SPICYSKIPS)) + QUAKE + DREAMNAIL + BOSS + Lurien + Monomon + Herrah</itemLogic>
+    <areaLogic>Central_Left_Waterways + (CLAW | (WINGS + SPICYSKIPS)) + QUAKE + DREAMNAIL + BOSS + Lurien + Monomon + Herrah</areaLogic>
+    <roomLogic>Waterways_15[top1] + DREAMNAIL + BOSS + Lurien + Monomon + Herrah</roomLogic>
+    <type>Trinket</type>
+    <action>Essence</action>
+    <pool>Essence_Boss</pool>
+    <geo>300</geo>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_300</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
+    <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
+    <areaName>Royal_Waterways</areaName>
+    <progression>true</progression>
+  </item>
+  <item name="Boss_Essence-Grey_Prince_Zote">
+    <sceneName>Room_Bretta_Basement</sceneName>
+    <objectName>Dream Enter</objectName>
+    <fsmName>Award Orbs</fsmName>
+    <!-- Wings are required anyway for the transition to Bretta's basement to appear, so
+         ways of rescuing Bretta without Wings are irrelevant. -->
+    <itemLogic>Dirtmouth + DREAMNAIL + BOSS + Mantis_Outskirts + CLAW + WINGS + Failed_Tramway + Colosseum</itemLogic>
+    <areaLogic>Dirtmouth + DREAMNAIL + BOSS + Mantis_Outskirts + CLAW + WINGS + Deepnest_33[top1] + Colosseum</areaLogic>
+    <roomLogic>Room_Bretta[right1] + DREAMNAIL + BOSS + Fungus2_23 + CLAW + WINGS + Deepnest_33[top1] + Room_Colosseum_01[left1]</roomLogic>
+    <type>Trinket</type>
+    <action>Essence</action>
+    <pool>Essence_Boss</pool>
+    <geo>300</geo>
+    <nameKey>RANDOMIZER_NAME_ESSENCE_300</nameKey>
+    <shopDescKey>RANDOMIZER_DESC_ESSENCE</shopDescKey>
+    <shopSpriteKey>ShopIcons.Essence</shopSpriteKey>
+    <areaName>Dirtmouth</areaName>
+    <progression>true</progression>
   </item>
   <!--Grubs-->
   <item name="Grub-Crossroads_Acid">
@@ -5416,8 +5502,8 @@
     <areaName>Distant_Village</areaName>
     <progression>true</progression>
   </item>
-  
-<!--REFERENCES-->
+
+  <!--REFERENCES-->
   <item name="Grubfather">
     <boolName></boolName>
     <sceneName></sceneName>
