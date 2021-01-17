@@ -100,7 +100,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Translator.cs" />
-    <Compile Include="UnTranslator.cs" />
     <Compile Include="XmlData.cs" />
     <Compile Include="RandomizerData.cs" />
     <Compile Include="Grapher.cs" />
