@@ -95,25 +95,6 @@
     <shopSpriteKey>ShopIcons.WorldSense</shopSpriteKey>
     <areaName>Black_Egg_Temple</areaName>
   </item>
-  <item name="Dreamer">
-    <itemLogic></itemLogic>
-    <areaLogic></areaLogic>
-    <roomLogic></roomLogic>
-    <type>Big</type>
-    <action>Dreamer</action>
-    <pool>Fake</pool>
-    <bigSpriteKey>Prompts.Dreamer</bigSpriteKey>
-    <takeKey>GET_ITEM_INTRO1</takeKey>
-    <nameKey>RANDOMIZER_NAME_DREAMER</nameKey>
-    <buttonKey>RANDOMIZER_EMPTY</buttonKey>
-    <descOneKey>RANDOMIZER_EMPTY</descOneKey>
-    <descTwoKey>RANDOMIZER_EMPTY</descTwoKey>
-    <shopDescKey>RANDOMIZER_DESC_DREAMER</shopDescKey>
-    <shopSpriteKey>Prompts.Dreamer</shopSpriteKey>
-    <areaName>Inventory</areaName>
-    <majorItem>true</majorItem>
-    <progression>true</progression>
-  </item>
   <item name="Mothwing_Cloak">
     <boolName>hasDash</boolName>
     <sceneName>Fungus1_04</sceneName>

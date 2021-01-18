@@ -4,14 +4,27 @@ using System.Xml;
 
 namespace RandomizerTracker
 {
+    /// If used in your own project, you should change the Log() routine to instead use YourModName.Instance.Log, as this will display the log as coming from your mod.
+    /// You may also desire to change the bool ReverseDictExists if you wish to reverse translation.
+    /// If this is set to false, then the reverse dictionary is not generated, and all calls to Reverse operations will return the input parameter.
+
+    /// <summary>
+    /// Static class to translate scene names into more descriptive room names using an xml stored in the player's saves folder.
+    /// </summary>
     public static class Translator
     {
         // Dictionaries for translation.
         private static Dictionary<string, string> TranslateDict = new Dictionary<string, string>();
         private static Dictionary<string, string> RevertDict = new Dictionary<string, string>();
+
+        // XML document. Disposed after loading.
         private static XmlDocument xml;
+
+        // Checks whether the dictionary was generated.
         private static bool DictActive;
-        private static bool ReverseDictExists;
+
+        // Change if you want to reverse the translation process.
+        private const bool ReverseDictExists = false;
 
         /// <summary>
         /// Creates dictionary/ies for translation from file in saves folder.
@@ -19,12 +32,11 @@ namespace RandomizerTracker
         /// </summary>
         public static void Initialize()
         {
-            ReverseDictExists = false; // Change if you wish to reverse translation.
-
             DictActive = LoadXML();
             if (DictActive)
             {
                 CreateDicts(ReverseDictExists);
+                xml = null;
             }
         }
 
@@ -34,12 +46,14 @@ namespace RandomizerTracker
         /// <returns>true if file is located, false if file is not located.</returns>
         public static bool LoadXML()
         {
-            if (!File.Exists(Path.Combine(Properties.Settings.Default.filepath, "TranslatorDictionary.xml")))
+            if (!File.Exists(Path.Combine(Path.GetDirectoryName(Properties.Settings.Default.filepath), "TranslatorDictionary.xml")))
             {
+                Log("XML not found. Please place TranslatorDictionary.xml into your saves folder.");
                 return false;
             }
+            Log("Translation XML loaded.");
             xml = new XmlDocument();
-            xml.Load(Path.Combine(Properties.Settings.Default.filepath, "TranslatorDictionary.xml"));
+            xml.Load(Path.Combine(Path.GetDirectoryName(Properties.Settings.Default.filepath), "TranslatorDictionary.xml"));
             return true;
         }
 
@@ -113,6 +127,13 @@ namespace RandomizerTracker
             if (!DictActive || !ReverseDictExists) { return oldName; }
             string[] transitionArray = oldName.Split('[', ']');
             return TranslateSceneName(transitionArray[0]) + '[' + transitionArray[1] + ']';
+        }
+
+        /// <summary>
+        /// does nothing because there are no logs to log to
+        /// </summary>
+        public static void Log(object message)
+        {
         }
     }
 }

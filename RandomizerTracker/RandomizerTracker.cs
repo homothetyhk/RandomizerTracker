@@ -26,6 +26,7 @@ namespace RandomizerTracker
 
         public RandomizerTracker()
         {
+            Translator.Initialize();
             instance = this;
             InitializeComponent();
             filepathBox.Text = LogFilepath;
