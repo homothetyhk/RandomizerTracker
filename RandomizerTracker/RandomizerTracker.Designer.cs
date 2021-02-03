@@ -109,7 +109,7 @@
             this.zoomToVertexSelect.Location = new System.Drawing.Point(415, 7);
             this.zoomToVertexSelect.Margin = new System.Windows.Forms.Padding(4);
             this.zoomToVertexSelect.Name = "zoomToVertexSelect";
-            this.zoomToVertexSelect.Size = new System.Drawing.Size(160, 26);
+            this.zoomToVertexSelect.Size = new System.Drawing.Size(318, 26);
             this.zoomToVertexSelect.TabIndex = 5;
             // 
             // ToggleEdgeLabels
