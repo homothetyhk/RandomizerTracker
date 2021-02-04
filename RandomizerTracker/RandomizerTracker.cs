@@ -29,6 +29,7 @@ namespace RandomizerTracker
             instance = this;
             InitializeComponent();
             filepathBox.Text = LogFilepath;
+            Translator.Initialize();
             ProcessXmls();
             GetRandomizerData();
             Load += (obj, e) => MasterRefresh();

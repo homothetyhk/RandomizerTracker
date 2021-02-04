@@ -46,7 +46,27 @@ namespace RandomizerTracker
             {
                 Items.Add(node.Attributes?["name"].InnerText);
                 itemToArea.Add(node.Attributes?["name"].InnerText, node["areaName"].InnerText);
-                itemToRoom.Add(node.Attributes?["name"].InnerText, node["sceneName"].InnerText);
+                itemToRoom.Add(node.Attributes?["name"].InnerText, Translator.TranslateSceneName(node["sceneName"].InnerText));
+                itemToPool.Add(node.Attributes?["name"].InnerText, node["pool"].InnerText);
+                checkIfShopItem.Add(node.Attributes?["name"].InnerText, node["type"].InnerText == "Shop");
+            }
+
+            XmlDocument rocksXML = LoadEmbeddedXml("RandomizerTracker.Resources.rocks.xml");
+            foreach (XmlNode node in rocksXML.SelectNodes("randomizer/item"))
+            {
+                Items.Add(node.Attributes?["name"].InnerText);
+                itemToArea.Add(node.Attributes?["name"].InnerText, node["areaName"].InnerText);
+                itemToRoom.Add(node.Attributes?["name"].InnerText, Translator.TranslateSceneName(node["sceneName"].InnerText));
+                itemToPool.Add(node.Attributes?["name"].InnerText, node["pool"].InnerText);
+                checkIfShopItem.Add(node.Attributes?["name"].InnerText, node["type"].InnerText == "Shop");
+            }
+
+            XmlDocument soulLoreXML = LoadEmbeddedXml("RandomizerTracker.Resources.soul_lore.xml");
+            foreach (XmlNode node in soulLoreXML.SelectNodes("randomizer/item"))
+            {
+                Items.Add(node.Attributes?["name"].InnerText);
+                itemToArea.Add(node.Attributes?["name"].InnerText, node["areaName"].InnerText);
+                itemToRoom.Add(node.Attributes?["name"].InnerText, Translator.TranslateSceneName(node["sceneName"].InnerText));
                 itemToPool.Add(node.Attributes?["name"].InnerText, node["pool"].InnerText);
                 checkIfShopItem.Add(node.Attributes?["name"].InnerText, node["type"].InnerText == "Shop");
             }
@@ -70,11 +90,11 @@ namespace RandomizerTracker
             rooms = new HashSet<string>();
             foreach (XmlNode node in roomXml.SelectNodes("randomizer/transition"))
             {
-                roomTransitions.Add(node.Attributes?["name"].InnerText);
-                transitionToRoom.Add(node.Attributes?["name"].InnerText, node.Attributes?["name"].InnerText.Split('[')[0]);
-                roomToArea[node.Attributes?["name"].InnerText.Split('[')[0]] = node["areaName"].InnerText;
-                isOneWay.Add(node.Attributes?["name"].InnerText, node?["oneWay"]?.InnerText?.Any(c => c == '1' || c == '2') == true);
-                rooms.Add(node.Attributes?["name"].InnerText.Split('[')[0]);
+                roomTransitions.Add(Translator.TranslateTransitionName(node.Attributes?["name"].InnerText));
+                transitionToRoom.Add(Translator.TranslateTransitionName(node.Attributes?["name"].InnerText), Translator.TranslateSceneName(node.Attributes?["name"].InnerText.Split('[')[0]));
+                roomToArea[Translator.TranslateSceneName(node.Attributes?["name"].InnerText.Split('[')[0])] = node["areaName"].InnerText;
+                isOneWay.Add(Translator.TranslateTransitionName(node.Attributes?["name"].InnerText), node?["oneWay"]?.InnerText?.Any(c => c == '1' || c == '2') == true);
+                rooms.Add(Translator.TranslateSceneName(node.Attributes?["name"].InnerText.Split('[')[0]));
             }
 
             XmlDocument colorsXml = LoadFolderXml("colors.xml");
